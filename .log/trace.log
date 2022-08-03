@@ -410,3 +410,90 @@ Identify and stop the process that's listening on port 8880 or configure this ap
 2022-08-03 17:37:58.172 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
 2022-08-03 17:37:58.172 INFO  com.jiawa.wiki.config.WikiApplication             :21   [32m                  [0;39m 启动成功!!!
 2022-08-03 17:37:58.172 INFO  com.jiawa.wiki.config.WikiApplication             :22   [32m                  [0;39m 地址: 	http://127.0.0.1:8888
+2022-08-03 17:48:39.277 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m                  [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2022-08-03 17:48:39.389 INFO  com.jiawa.wiki.config.WikiApplication             :55   [32m                  [0;39m Starting WikiApplication using Java 1.8.0_331 on appledembp with PID 48249 (/Users/apple/Downloads/wiki/target/classes started by apple in /Users/apple/Downloads/wiki)
+2022-08-03 17:48:39.390 INFO  com.jiawa.wiki.config.WikiApplication             :660  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2022-08-03 17:48:39.506 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8888 (http)
+2022-08-03 17:48:39.507 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8888"]
+2022-08-03 17:48:39.508 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2022-08-03 17:48:39.508 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.39]
+2022-08-03 17:48:39.513 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2022-08-03 17:48:39.514 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :289  [32m                  [0;39m Root WebApplicationContext: initialization completed in 123 ms
+2022-08-03 17:48:39.593 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2022-08-03 17:48:39.631 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
+2022-08-03 17:48:39.638 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8888"]
+2022-08-03 17:48:39.640 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8888 (http) with context path ''
+2022-08-03 17:48:39.643 INFO  com.jiawa.wiki.config.WikiApplication             :61   [32m                  [0;39m Started WikiApplication in 0.277 seconds (JVM running for 2967.657)
+2022-08-03 17:48:39.645 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2022-08-03 17:48:39.645 INFO  com.jiawa.wiki.config.WikiApplication             :21   [32m                  [0;39m 启动成功!!!
+2022-08-03 17:48:39.645 INFO  com.jiawa.wiki.config.WikiApplication             :22   [32m                  [0;39m 地址: 	http://127.0.0.1:8888
+2022-08-03 17:48:42.227 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m                  [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2022-08-03 17:48:42.301 INFO  com.jiawa.wiki.config.WikiApplication             :55   [32m                  [0;39m Starting WikiApplication using Java 1.8.0_331 on appledembp with PID 48249 (/Users/apple/Downloads/wiki/target/classes started by apple in /Users/apple/Downloads/wiki)
+2022-08-03 17:48:42.301 INFO  com.jiawa.wiki.config.WikiApplication             :660  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2022-08-03 17:48:42.410 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8888 (http)
+2022-08-03 17:48:42.411 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8888"]
+2022-08-03 17:48:42.411 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2022-08-03 17:48:42.411 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.39]
+2022-08-03 17:48:42.416 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2022-08-03 17:48:42.416 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :289  [32m                  [0;39m Root WebApplicationContext: initialization completed in 113 ms
+2022-08-03 17:48:42.475 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2022-08-03 17:48:42.505 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
+2022-08-03 17:48:42.510 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8888"]
+2022-08-03 17:48:42.511 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8888 (http) with context path ''
+2022-08-03 17:48:42.514 INFO  com.jiawa.wiki.config.WikiApplication             :61   [32m                  [0;39m Started WikiApplication in 0.23 seconds (JVM running for 2970.528)
+2022-08-03 17:48:42.515 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2022-08-03 17:48:42.515 INFO  com.jiawa.wiki.config.WikiApplication             :21   [32m                  [0;39m 启动成功!!!
+2022-08-03 17:48:42.515 INFO  com.jiawa.wiki.config.WikiApplication             :22   [32m                  [0;39m 地址: 	http://127.0.0.1:8888
+2022-08-03 17:48:42.791 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-08-03 17:48:42.792 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2022-08-03 17:48:42.793 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 1 ms
+2022-08-03 17:48:42.810 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m                  [0;39m HikariPool-4 - Starting...
+2022-08-03 17:48:43.150 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m                  [0;39m HikariPool-4 - Start completed.
+2022-08-03 17:50:19.216 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m                  [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2022-08-03 17:50:19.216 INFO  com.zaxxer.hikari.HikariDataSource                :350  [32m                  [0;39m HikariPool-4 - Shutdown initiated...
+2022-08-03 17:50:19.220 INFO  com.zaxxer.hikari.HikariDataSource                :352  [32m                  [0;39m HikariPool-4 - Shutdown completed.
+2022-08-03 17:50:19.330 INFO  com.jiawa.wiki.config.WikiApplication             :55   [32m                  [0;39m Starting WikiApplication using Java 1.8.0_331 on appledembp with PID 48249 (/Users/apple/Downloads/wiki/target/classes started by apple in /Users/apple/Downloads/wiki)
+2022-08-03 17:50:19.331 INFO  com.jiawa.wiki.config.WikiApplication             :660  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2022-08-03 17:50:19.445 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8888 (http)
+2022-08-03 17:50:19.445 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8888"]
+2022-08-03 17:50:19.446 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2022-08-03 17:50:19.446 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.39]
+2022-08-03 17:50:19.450 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2022-08-03 17:50:19.451 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :289  [32m                  [0;39m Root WebApplicationContext: initialization completed in 119 ms
+2022-08-03 17:50:19.503 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2022-08-03 17:50:19.543 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
+2022-08-03 17:50:19.549 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8888"]
+2022-08-03 17:50:19.551 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8888 (http) with context path ''
+2022-08-03 17:50:19.554 INFO  com.jiawa.wiki.config.WikiApplication             :61   [32m                  [0;39m Started WikiApplication in 0.244 seconds (JVM running for 3067.573)
+2022-08-03 17:50:19.556 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2022-08-03 17:50:19.556 INFO  com.jiawa.wiki.config.WikiApplication             :21   [32m                  [0;39m 启动成功!!!
+2022-08-03 17:50:19.556 INFO  com.jiawa.wiki.config.WikiApplication             :22   [32m                  [0;39m 地址: 	http://127.0.0.1:8888
+2022-08-03 17:50:23.912 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-08-03 17:50:23.912 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2022-08-03 17:50:23.913 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 1 ms
+2022-08-03 17:50:23.914 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m                  [0;39m HikariPool-5 - Starting...
+2022-08-03 17:50:24.264 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m                  [0;39m HikariPool-5 - Start completed.
+2022-08-03 17:51:27.103 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m                  [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2022-08-03 17:51:27.103 INFO  com.zaxxer.hikari.HikariDataSource                :350  [32m                  [0;39m HikariPool-5 - Shutdown initiated...
+2022-08-03 17:51:27.108 INFO  com.zaxxer.hikari.HikariDataSource                :352  [32m                  [0;39m HikariPool-5 - Shutdown completed.
+2022-08-03 17:51:28.163 INFO  com.jiawa.wiki.config.WikiApplication             :55   [32m                  [0;39m Starting WikiApplication using Java 1.8.0_331 on appledembp with PID 48249 (/Users/apple/Downloads/wiki/target/classes started by apple in /Users/apple/Downloads/wiki)
+2022-08-03 17:51:28.164 INFO  com.jiawa.wiki.config.WikiApplication             :660  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2022-08-03 17:51:28.266 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8888 (http)
+2022-08-03 17:51:28.267 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8888"]
+2022-08-03 17:51:28.267 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2022-08-03 17:51:28.267 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.39]
+2022-08-03 17:51:28.273 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2022-08-03 17:51:28.273 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :289  [32m                  [0;39m Root WebApplicationContext: initialization completed in 108 ms
+2022-08-03 17:51:28.341 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2022-08-03 17:51:28.376 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
+2022-08-03 17:51:28.384 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8888"]
+2022-08-03 17:51:28.387 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8888 (http) with context path ''
+2022-08-03 17:51:28.392 INFO  com.jiawa.wiki.config.WikiApplication             :61   [32m                  [0;39m Started WikiApplication in 1.226 seconds (JVM running for 3136.413)
+2022-08-03 17:51:28.395 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2022-08-03 17:51:28.396 INFO  com.jiawa.wiki.config.WikiApplication             :21   [32m                  [0;39m 启动成功!!!
+2022-08-03 17:51:28.398 INFO  com.jiawa.wiki.config.WikiApplication             :22   [32m                  [0;39m 地址: 	http://127.0.0.1:8888
+2022-08-03 17:51:31.539 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-08-03 17:51:31.540 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2022-08-03 17:51:31.541 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 1 ms
+2022-08-03 17:51:48.078 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m                  [0;39m HikariPool-6 - Starting...
+2022-08-03 17:51:48.444 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m                  [0;39m HikariPool-6 - Start completed.

@@ -1,0 +1,1 @@
+2022-07-27 15:50:58.701 ERROR com.alibaba.druid.pool.DruidDataSource            :1197 [32m                  [0;39m testWhileIdle is true, validationQuery not set

@@ -11,7 +11,7 @@
           <template #title>
                 <span>
                   <user-outlined />
-                  subnav 22222
+                  subnav 1
                 </span>
           </template>
           <a-menu-item key="1">option1</a-menu-item>
@@ -48,7 +48,7 @@
     <a-layout-content
         :style="{ background: '#fff', padding: '24px', margin: 0, minHeight: '280px' }"
     >
-      Content1
+      Content
     </a-layout-content>
   </a-layout>
 </template>

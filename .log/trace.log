@@ -387,3 +387,30 @@ Caused by: java.lang.ClassNotFoundException: com.jiawa.wiki.service.EbookService
 2022-08-09 10:17:59.760 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 0 ms
 2022-08-09 10:17:59.766 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m                  [0;39m HikariPool-13 - Starting...
 2022-08-09 10:18:00.113 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m                  [0;39m HikariPool-13 - Start completed.
+2022-08-09 10:25:00.106 WARN  com.zaxxer.hikari.pool.HikariPool                 :779  [32m                  [0;39m HikariPool-13 - Retrograde clock change detected (housekeeper delta=29s849ms), soft-evicting connections from pool.
+2022-08-09 10:32:54.671 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m                  [0;39m HikariPool-13 - Thread starvation or clock leap detected (housekeeper delta=2m24s265ms).
+2022-08-09 10:38:36.342 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m                  [0;39m HikariPool-13 - Thread starvation or clock leap detected (housekeeper delta=5m11s663ms).
+2022-08-09 10:44:18.036 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m                  [0;39m HikariPool-13 - Thread starvation or clock leap detected (housekeeper delta=5m11s668ms).
+2022-08-09 10:49:30.877 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m                  [0;39m HikariPool-13 - Thread starvation or clock leap detected (housekeeper delta=5m12s841ms).
+2022-08-09 10:55:12.451 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m                  [0;39m HikariPool-13 - Thread starvation or clock leap detected (housekeeper delta=5m11s561ms).
+2022-08-09 11:00:54.070 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m                  [0;39m HikariPool-13 - Thread starvation or clock leap detected (housekeeper delta=5m11s613ms).
+2022-08-09 11:06:35.635 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m                  [0;39m HikariPool-13 - Thread starvation or clock leap detected (housekeeper delta=5m11s561ms).
+2022-08-09 11:11:47.246 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m                  [0;39m HikariPool-13 - Thread starvation or clock leap detected (housekeeper delta=5m11s611ms).
+2022-08-09 11:18:28.960 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m                  [0;39m HikariPool-13 - Thread starvation or clock leap detected (housekeeper delta=5m11s606ms).
+2022-08-09 11:23:40.882 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m                  [0;39m HikariPool-13 - Thread starvation or clock leap detected (housekeeper delta=5m11s922ms).
+2022-08-09 11:25:47.744 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m                  [0;39m HikariPool-13 - Thread starvation or clock leap detected (housekeeper delta=1m36s845ms).
+2022-08-09 12:38:00.910 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m                  [0;39m HikariPool-13 - Thread starvation or clock leap detected (housekeeper delta=5m11s613ms).
+2022-08-09 12:43:42.534 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m                  [0;39m HikariPool-13 - Thread starvation or clock leap detected (housekeeper delta=5m11s612ms).
+2022-08-09 12:48:54.003 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m                  [0;39m HikariPool-13 - Thread starvation or clock leap detected (housekeeper delta=5m11s469ms).
+2022-08-09 12:54:35.607 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m                  [0;39m HikariPool-13 - Thread starvation or clock leap detected (housekeeper delta=5m11s597ms).
+2022-08-09 13:00:17.230 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m                  [0;39m HikariPool-13 - Thread starvation or clock leap detected (housekeeper delta=5m11s629ms).
+2022-08-09 13:05:29.477 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m                  [0;39m HikariPool-13 - Thread starvation or clock leap detected (housekeeper delta=5m12s247ms).
+2022-08-09 13:11:10.982 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m                  [0;39m HikariPool-13 - Thread starvation or clock leap detected (housekeeper delta=5m11s502ms).
+2022-08-09 13:16:52.590 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m                  [0;39m HikariPool-13 - Thread starvation or clock leap detected (housekeeper delta=5m11s607ms).
+2022-08-09 13:22:39.169 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m                  [0;39m HikariPool-13 - Thread starvation or clock leap detected (housekeeper delta=5m16s578ms).
+2022-08-09 13:27:50.765 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m                  [0;39m HikariPool-13 - Thread starvation or clock leap detected (housekeeper delta=5m11s596ms).
+2022-08-09 13:33:32.407 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m                  [0;39m HikariPool-13 - Thread starvation or clock leap detected (housekeeper delta=5m11s631ms).
+2022-08-09 13:39:14.012 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m                  [0;39m HikariPool-13 - Thread starvation or clock leap detected (housekeeper delta=5m11s599ms).
+2022-08-09 13:44:26.037 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m                  [0;39m HikariPool-13 - Thread starvation or clock leap detected (housekeeper delta=5m12s25ms).
+2022-08-09 13:50:07.746 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m                  [0;39m HikariPool-13 - Thread starvation or clock leap detected (housekeeper delta=5m11s615ms).
+2022-08-09 13:54:30.271 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m                  [0;39m HikariPool-13 - Thread starvation or clock leap detected (housekeeper delta=3m52s515ms).

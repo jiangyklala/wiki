@@ -1,0 +1,11 @@
+2022-08-08 07:00:22.681 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m                  [0;39m HikariPool-9 - Thread starvation or clock leap detected (housekeeper delta=9h29m39s54ms).
+2022-08-08 07:00:52.328 WARN  com.zaxxer.hikari.pool.HikariPool                 :779  [32m                  [0;39m HikariPool-9 - Retrograde clock change detected (housekeeper delta=29s635ms), soft-evicting connections from pool.
+2022-08-08 07:06:08.534 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m                  [0;39m HikariPool-9 - Thread starvation or clock leap detected (housekeeper delta=5m16s217ms).
+2022-08-08 07:11:26.465 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m                  [0;39m HikariPool-9 - Thread starvation or clock leap detected (housekeeper delta=5m17s926ms).
+2022-08-08 09:11:55.827 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m                  [0;39m HikariPool-9 - Thread starvation or clock leap detected (housekeeper delta=2h29s368ms).
+2022-08-08 09:17:09.847 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m                  [0;39m HikariPool-9 - Thread starvation or clock leap detected (housekeeper delta=5m14s20ms).
+2022-08-08 11:17:39.296 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m                  [0;39m HikariPool-9 - Thread starvation or clock leap detected (housekeeper delta=2h29s448ms).
+2022-08-08 15:18:10.591 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m                  [0;39m HikariPool-9 - Thread starvation or clock leap detected (housekeeper delta=4h31s293ms).
+2022-08-08 19:01:56.307 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m                  [0;39m HikariPool-9 - Thread starvation or clock leap detected (housekeeper delta=3h43m45s691ms).
+2022-08-08 21:30:09.857 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m                  [0;39m HikariPool-9 - Thread starvation or clock leap detected (housekeeper delta=2h28m13s577ms).
+2022-08-08 21:30:39.560 WARN  com.zaxxer.hikari.pool.HikariPool                 :779  [32m                  [0;39m HikariPool-9 - Retrograde clock change detected (housekeeper delta=29s704ms), soft-evicting connections from pool.

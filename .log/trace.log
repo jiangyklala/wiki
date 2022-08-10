@@ -1,446 +1,91 @@
-2022-08-09 07:00:15.023 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m                  [0;39m HikariPool-9 - Thread starvation or clock leap detected (housekeeper delta=9h29m35s462ms).
-2022-08-09 07:06:08.374 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m                  [0;39m HikariPool-9 - Thread starvation or clock leap detected (housekeeper delta=5m23s332ms).
-2022-08-09 07:11:42.110 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m                  [0;39m HikariPool-9 - Thread starvation or clock leap detected (housekeeper delta=5m33s736ms).
-2022-08-09 07:17:11.182 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m                  [0;39m HikariPool-9 - Thread starvation or clock leap detected (housekeeper delta=5m29s72ms).
-2022-08-09 07:22:44.900 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m                  [0;39m HikariPool-9 - Thread starvation or clock leap detected (housekeeper delta=5m33s718ms).
-2022-08-09 07:28:15.875 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m                  [0;39m HikariPool-9 - Thread starvation or clock leap detected (housekeeper delta=5m30s975ms).
-2022-08-09 07:38:48.756 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m                  [0;39m HikariPool-9 - Thread starvation or clock leap detected (housekeeper delta=10m32s880ms).
-2022-08-09 07:44:18.812 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m                  [0;39m HikariPool-9 - Thread starvation or clock leap detected (housekeeper delta=5m30s57ms).
-2022-08-09 07:49:47.971 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m                  [0;39m HikariPool-9 - Thread starvation or clock leap detected (housekeeper delta=5m29s159ms).
-2022-08-09 08:00:20.833 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m                  [0;39m HikariPool-9 - Thread starvation or clock leap detected (housekeeper delta=10m32s862ms).
-2022-08-09 08:11:21.835 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m                  [0;39m HikariPool-9 - Thread starvation or clock leap detected (housekeeper delta=10m30s994ms).
-2022-08-09 08:17:19.966 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m                  [0;39m HikariPool-9 - Thread starvation or clock leap detected (housekeeper delta=5m28s126ms).
-2022-08-09 08:22:52.732 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m                  [0;39m HikariPool-9 - Thread starvation or clock leap detected (housekeeper delta=5m32s765ms).
-2022-08-09 08:33:27.408 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m                  [0;39m HikariPool-9 - Thread starvation or clock leap detected (housekeeper delta=10m34s677ms).
-2022-08-09 08:35:02.746 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m                  [0;39m HikariPool-9 - Thread starvation or clock leap detected (housekeeper delta=1m35s337ms).
-2022-08-09 08:39:53.388 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m                  [0;39m HikariPool-9 - Thread starvation or clock leap detected (housekeeper delta=4m20s638ms).
-2022-08-09 08:45:10.213 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m                  [0;39m HikariPool-9 - Thread starvation or clock leap detected (housekeeper delta=5m16s821ms).
-2022-08-09 09:24:18.876 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m                  [0;39m HikariPool-9 - Thread starvation or clock leap detected (housekeeper delta=39m8s665ms).
-2022-08-09 09:27:04.750 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m                  [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
-2022-08-09 09:27:04.751 INFO  com.zaxxer.hikari.HikariDataSource                :350  [32m                  [0;39m HikariPool-9 - Shutdown initiated...
-2022-08-09 09:27:04.760 INFO  com.zaxxer.hikari.HikariDataSource                :352  [32m                  [0;39m HikariPool-9 - Shutdown completed.
-2022-08-09 09:27:04.985 INFO  com.jiawa.wiki.config.WikiApplication             :55   [32m                  [0;39m Starting WikiApplication using Java 1.8.0_331 on appledembp with PID 48249 (/Users/apple/Downloads/wiki/target/classes started by apple in /Users/apple/Downloads/wiki)
-2022-08-09 09:27:04.985 INFO  com.jiawa.wiki.config.WikiApplication             :660  [32m                  [0;39m No active profile set, falling back to default profiles: default
-2022-08-09 09:27:05.247 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8888 (http)
-2022-08-09 09:27:05.248 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8888"]
-2022-08-09 09:27:05.248 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
-2022-08-09 09:27:05.248 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.39]
-2022-08-09 09:27:05.263 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
-2022-08-09 09:27:05.263 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :289  [32m                  [0;39m Root WebApplicationContext: initialization completed in 276 ms
-2022-08-09 09:27:05.374 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
-2022-08-09 09:27:05.431 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
-2022-08-09 09:27:05.444 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8888"]
-2022-08-09 09:27:05.446 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8888 (http) with context path ''
-2022-08-09 09:27:05.451 INFO  com.jiawa.wiki.config.WikiApplication             :61   [32m                  [0;39m Started WikiApplication in 0.494 seconds (JVM running for 35518.491)
-2022-08-09 09:27:05.453 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
-2022-08-09 09:27:05.454 INFO  com.jiawa.wiki.config.WikiApplication             :21   [32m                  [0;39m 启动成功!!!
-2022-08-09 09:27:05.454 INFO  com.jiawa.wiki.config.WikiApplication             :22   [32m                  [0;39m 地址: 	http://127.0.0.1:8888
-2022-08-09 09:34:35.523 INFO  com.jiawa.wiki.config.WikiApplication             :55   [32m                  [0;39m Starting WikiApplication using Java 1.8.0_331 on appledembp with PID 56930 (/Users/apple/Downloads/wiki/target/classes started by apple in /Users/apple/Downloads/wiki)
-2022-08-09 09:34:35.526 INFO  com.jiawa.wiki.config.WikiApplication             :660  [32m                  [0;39m No active profile set, falling back to default profiles: default
-2022-08-09 09:34:35.574 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :255  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2022-08-09 09:34:35.575 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :255  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2022-08-09 09:34:36.172 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m                  [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
-2022-08-09 09:34:36.285 INFO  com.jiawa.wiki.config.WikiApplication             :55   [32m                  [0;39m Starting WikiApplication using Java 1.8.0_331 on appledembp with PID 48249 (/Users/apple/Downloads/wiki/target/classes started by apple in /Users/apple/Downloads/wiki)
-2022-08-09 09:34:36.285 INFO  com.jiawa.wiki.config.WikiApplication             :660  [32m                  [0;39m No active profile set, falling back to default profiles: default
-2022-08-09 09:34:36.422 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8888 (http)
-2022-08-09 09:34:36.423 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8888"]
-2022-08-09 09:34:36.424 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
-2022-08-09 09:34:36.424 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.39]
-2022-08-09 09:34:36.432 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
-2022-08-09 09:34:36.433 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :289  [32m                  [0;39m Root WebApplicationContext: initialization completed in 145 ms
-2022-08-09 09:34:36.452 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8888 (http)
-2022-08-09 09:34:36.461 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8888"]
-2022-08-09 09:34:36.461 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
-2022-08-09 09:34:36.462 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.39]
-2022-08-09 09:34:36.496 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
-2022-08-09 09:34:36.511 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
-2022-08-09 09:34:36.511 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :289  [32m                  [0;39m Root WebApplicationContext: initialization completed in 935 ms
-2022-08-09 09:34:36.527 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
-2022-08-09 09:34:36.532 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8888"]
-2022-08-09 09:34:36.534 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8888 (http) with context path ''
-2022-08-09 09:34:36.536 INFO  com.jiawa.wiki.config.WikiApplication             :61   [32m                  [0;39m Started WikiApplication in 0.268 seconds (JVM running for 35969.573)
-2022-08-09 09:34:36.537 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
-2022-08-09 09:34:36.538 INFO  com.jiawa.wiki.config.WikiApplication             :21   [32m                  [0;39m 启动成功!!!
-2022-08-09 09:34:36.538 INFO  com.jiawa.wiki.config.WikiApplication             :22   [32m                  [0;39m 地址: 	http://127.0.0.1:8888
-2022-08-09 09:34:36.915 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
-2022-08-09 09:34:37.087 WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :61   [32m                  [0;39m Unable to start LiveReload server
-2022-08-09 09:34:37.100 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8888"]
-2022-08-09 09:34:37.112 WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext:596  [32m                  [0;39m Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8888 is already in use
-2022-08-09 09:34:37.114 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m                  [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
-2022-08-09 09:34:37.116 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Pausing ProtocolHandler ["http-nio-8888"]
-2022-08-09 09:34:37.116 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Stopping service [Tomcat]
-2022-08-09 09:34:37.119 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Stopping ProtocolHandler ["http-nio-8888"]
-2022-08-09 09:34:37.119 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Destroying ProtocolHandler ["http-nio-8888"]
-2022-08-09 09:34:37.126 INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener:136  [32m                  [0;39m 
-
-Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
-2022-08-09 09:34:37.144 ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter  :40   [32m                  [0;39m 
-
-***************************
-APPLICATION FAILED TO START
-***************************
-
-Description:
-
-Web server failed to start. Port 8888 was already in use.
-
-Action:
-
-Identify and stop the process that's listening on port 8888 or configure this application to listen on another port.
-
-2022-08-09 09:35:41.977 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
-2022-08-09 09:35:41.977 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
-2022-08-09 09:35:41.978 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 0 ms
-2022-08-09 09:35:41.992 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m                  [0;39m HikariPool-10 - Starting...
-2022-08-09 09:35:42.373 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m                  [0;39m HikariPool-10 - Start completed.
-2022-08-09 09:38:09.698 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m                  [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
-2022-08-09 09:38:09.698 INFO  com.zaxxer.hikari.HikariDataSource                :350  [32m                  [0;39m HikariPool-10 - Shutdown initiated...
-2022-08-09 09:38:09.700 INFO  com.zaxxer.hikari.HikariDataSource                :352  [32m                  [0;39m HikariPool-10 - Shutdown completed.
-2022-08-09 09:38:09.814 INFO  com.jiawa.wiki.config.WikiApplication             :55   [32m                  [0;39m Starting WikiApplication using Java 1.8.0_331 on appledembp with PID 48249 (/Users/apple/Downloads/wiki/target/classes started by apple in /Users/apple/Downloads/wiki)
-2022-08-09 09:38:09.814 INFO  com.jiawa.wiki.config.WikiApplication             :660  [32m                  [0;39m No active profile set, falling back to default profiles: default
-2022-08-09 09:38:09.942 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8888 (http)
-2022-08-09 09:38:09.942 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8888"]
-2022-08-09 09:38:09.943 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
-2022-08-09 09:38:09.943 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.39]
-2022-08-09 09:38:09.948 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
-2022-08-09 09:38:09.949 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :289  [32m                  [0;39m Root WebApplicationContext: initialization completed in 133 ms
-2022-08-09 09:38:09.988 WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext:596  [32m                  [0;39m Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'ebookController' defined in file [/Users/apple/Downloads/wiki/target/classes/com/jiawa/wiki/controller/EbookController.class]: Post-processing of merged bean definition failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [com.jiawa.wiki.controller.EbookController] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@7ff71ad7]
-2022-08-09 09:38:09.989 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Stopping service [Tomcat]
-2022-08-09 09:38:09.994 INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener:136  [32m                  [0;39m 
-
-Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
-2022-08-09 09:38:10.011 ERROR org.springframework.boot.SpringApplication        :856  [32m                  [0;39m Application run failed
-org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'ebookController' defined in file [/Users/apple/Downloads/wiki/target/classes/com/jiawa/wiki/controller/EbookController.class]: Post-processing of merged bean definition failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [com.jiawa.wiki.controller.EbookController] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@7ff71ad7]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:586)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:531)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
-	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:944)
-	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:925)
-	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:588)
-	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:144)
-	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:767)
-	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:759)
-	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:426)
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:326)
-	at com.jiawa.wiki.config.WikiApplication.main(WikiApplication.java:20)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
-Caused by: java.lang.IllegalStateException: Failed to introspect Class [com.jiawa.wiki.controller.EbookController] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@7ff71ad7]
-	at org.springframework.util.ReflectionUtils.getDeclaredFields(ReflectionUtils.java:737)
-	at org.springframework.util.ReflectionUtils.doWithLocalFields(ReflectionUtils.java:669)
-	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.buildResourceMetadata(CommonAnnotationBeanPostProcessor.java:366)
-	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.findResourceMetadata(CommonAnnotationBeanPostProcessor.java:347)
-	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessMergedBeanDefinition(CommonAnnotationBeanPostProcessor.java:295)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyMergedBeanDefinitionPostProcessors(AbstractAutowireCapableBeanFactory.java:1100)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:583)
-	... 19 common frames omitted
-Caused by: java.lang.NoClassDefFoundError: Lcom/jiawa/wiki/service/EbookService;
-	at java.lang.Class.getDeclaredFields0(Native Method)
-	at java.lang.Class.privateGetDeclaredFields(Class.java:2583)
-	at java.lang.Class.getDeclaredFields(Class.java:1916)
-	at org.springframework.util.ReflectionUtils.getDeclaredFields(ReflectionUtils.java:732)
-	... 25 common frames omitted
-Caused by: java.lang.ClassNotFoundException: com.jiawa.wiki.service.EbookService
-	at java.net.URLClassLoader.findClass(URLClassLoader.java:387)
-	at java.lang.ClassLoader.loadClass(ClassLoader.java:418)
-	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:355)
-	at java.lang.ClassLoader.loadClass(ClassLoader.java:351)
-	at java.lang.Class.forName0(Native Method)
-	at java.lang.Class.forName(Class.java:348)
-	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:144)
-	at java.lang.ClassLoader.loadClass(ClassLoader.java:351)
-	... 29 common frames omitted
-2022-08-09 09:39:00.628 INFO  com.jiawa.wiki.config.WikiApplication             :55   [32m                  [0;39m Starting WikiApplication using Java 1.8.0_331 on appledembp with PID 48249 (/Users/apple/Downloads/wiki/target/classes started by apple in /Users/apple/Downloads/wiki)
-2022-08-09 09:39:00.628 INFO  com.jiawa.wiki.config.WikiApplication             :660  [32m                  [0;39m No active profile set, falling back to default profiles: default
-2022-08-09 09:39:00.736 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8888 (http)
-2022-08-09 09:39:00.736 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8888"]
-2022-08-09 09:39:00.736 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
-2022-08-09 09:39:00.736 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.39]
-2022-08-09 09:39:00.741 INFO  o.a.c.c.ContainerBase.[Tomcat-1].[localhost].[/]  :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
-2022-08-09 09:39:00.741 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :289  [32m                  [0;39m Root WebApplicationContext: initialization completed in 111 ms
-2022-08-09 09:39:00.797 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
-2022-08-09 09:39:00.825 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
-2022-08-09 09:39:00.830 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8888"]
-2022-08-09 09:39:00.832 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8888 (http) with context path ''
-2022-08-09 09:39:00.834 INFO  com.jiawa.wiki.config.WikiApplication             :61   [32m                  [0;39m Started WikiApplication in 0.231 seconds (JVM running for 36233.87)
-2022-08-09 09:39:00.835 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
-2022-08-09 09:39:00.835 INFO  com.jiawa.wiki.config.WikiApplication             :21   [32m                  [0;39m 启动成功!!!
-2022-08-09 09:39:00.835 INFO  com.jiawa.wiki.config.WikiApplication             :22   [32m                  [0;39m 地址: 	http://127.0.0.1:8888
-2022-08-09 09:39:15.392 INFO  o.a.c.c.ContainerBase.[Tomcat-1].[localhost].[/]  :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
-2022-08-09 09:39:15.392 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
-2022-08-09 09:39:15.393 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 1 ms
-2022-08-09 09:39:15.398 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m                  [0;39m HikariPool-11 - Starting...
-2022-08-09 09:39:16.442 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m                  [0;39m HikariPool-11 - Start completed.
-2022-08-09 09:40:37.157 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m                  [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
-2022-08-09 09:40:37.158 INFO  com.zaxxer.hikari.HikariDataSource                :350  [32m                  [0;39m HikariPool-11 - Shutdown initiated...
-2022-08-09 09:40:37.161 INFO  com.zaxxer.hikari.HikariDataSource                :352  [32m                  [0;39m HikariPool-11 - Shutdown completed.
-2022-08-09 09:40:37.277 INFO  com.jiawa.wiki.config.WikiApplication             :55   [32m                  [0;39m Starting WikiApplication using Java 1.8.0_331 on appledembp with PID 48249 (/Users/apple/Downloads/wiki/target/classes started by apple in /Users/apple/Downloads/wiki)
-2022-08-09 09:40:37.277 INFO  com.jiawa.wiki.config.WikiApplication             :660  [32m                  [0;39m No active profile set, falling back to default profiles: default
-2022-08-09 09:40:37.375 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8888 (http)
-2022-08-09 09:40:37.376 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8888"]
-2022-08-09 09:40:37.376 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
-2022-08-09 09:40:37.376 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.39]
-2022-08-09 09:40:37.380 INFO  o.a.c.c.ContainerBase.[Tomcat-1].[localhost].[/]  :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
-2022-08-09 09:40:37.380 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :289  [32m                  [0;39m Root WebApplicationContext: initialization completed in 101 ms
-2022-08-09 09:40:37.425 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
-2022-08-09 09:40:37.449 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
-2022-08-09 09:40:37.453 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8888"]
-2022-08-09 09:40:37.455 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8888 (http) with context path ''
-2022-08-09 09:40:37.457 INFO  com.jiawa.wiki.config.WikiApplication             :61   [32m                  [0;39m Started WikiApplication in 0.198 seconds (JVM running for 36330.466)
-2022-08-09 09:40:37.458 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
-2022-08-09 09:40:37.458 INFO  com.jiawa.wiki.config.WikiApplication             :21   [32m                  [0;39m 启动成功!!!
-2022-08-09 09:40:37.458 INFO  com.jiawa.wiki.config.WikiApplication             :22   [32m                  [0;39m 地址: 	http://127.0.0.1:8888
-2022-08-09 09:44:14.265 INFO  o.a.c.c.ContainerBase.[Tomcat-1].[localhost].[/]  :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
-2022-08-09 09:44:14.266 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
-2022-08-09 09:44:14.266 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 0 ms
-2022-08-09 09:44:14.273 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m                  [0;39m HikariPool-12 - Starting...
-2022-08-09 09:44:14.610 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m                  [0;39m HikariPool-12 - Start completed.
-2022-08-09 09:55:16.240 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m                  [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
-2022-08-09 09:55:16.241 INFO  com.zaxxer.hikari.HikariDataSource                :350  [32m                  [0;39m HikariPool-12 - Shutdown initiated...
-2022-08-09 09:55:16.243 INFO  com.zaxxer.hikari.HikariDataSource                :352  [32m                  [0;39m HikariPool-12 - Shutdown completed.
-2022-08-09 09:55:16.374 INFO  com.jiawa.wiki.config.WikiApplication             :55   [32m                  [0;39m Starting WikiApplication using Java 1.8.0_331 on appledembp with PID 48249 (/Users/apple/Downloads/wiki/target/classes started by apple in /Users/apple/Downloads/wiki)
-2022-08-09 09:55:16.375 INFO  com.jiawa.wiki.config.WikiApplication             :660  [32m                  [0;39m No active profile set, falling back to default profiles: default
-2022-08-09 09:55:16.496 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8888 (http)
-2022-08-09 09:55:16.496 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8888"]
-2022-08-09 09:55:16.496 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
-2022-08-09 09:55:16.496 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.39]
-2022-08-09 09:55:16.502 INFO  o.a.c.c.ContainerBase.[Tomcat-1].[localhost].[/]  :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
-2022-08-09 09:55:16.502 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :289  [32m                  [0;39m Root WebApplicationContext: initialization completed in 125 ms
-2022-08-09 09:55:16.557 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
-2022-08-09 09:55:16.588 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
-2022-08-09 09:55:16.594 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8888"]
-2022-08-09 09:55:16.595 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8888 (http) with context path ''
-2022-08-09 09:55:16.597 INFO  com.jiawa.wiki.config.WikiApplication             :61   [32m                  [0;39m Started WikiApplication in 0.273 seconds (JVM running for 37209.618)
-2022-08-09 09:55:16.598 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
-2022-08-09 09:55:16.599 INFO  com.jiawa.wiki.config.WikiApplication             :21   [32m                  [0;39m 启动成功!!!
-2022-08-09 09:55:16.599 INFO  com.jiawa.wiki.config.WikiApplication             :22   [32m                  [0;39m 地址: 	http://127.0.0.1:8888
-2022-08-09 09:57:10.097 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m                  [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
-2022-08-09 09:57:10.172 INFO  com.jiawa.wiki.config.WikiApplication             :55   [32m                  [0;39m Starting WikiApplication using Java 1.8.0_331 on appledembp with PID 48249 (/Users/apple/Downloads/wiki/target/classes started by apple in /Users/apple/Downloads/wiki)
-2022-08-09 09:57:10.173 INFO  com.jiawa.wiki.config.WikiApplication             :660  [32m                  [0;39m No active profile set, falling back to default profiles: default
-2022-08-09 09:57:10.283 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8888 (http)
-2022-08-09 09:57:10.283 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8888"]
-2022-08-09 09:57:10.284 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
-2022-08-09 09:57:10.284 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.39]
-2022-08-09 09:57:10.288 INFO  o.a.c.c.ContainerBase.[Tomcat-1].[localhost].[/]  :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
-2022-08-09 09:57:10.289 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :289  [32m                  [0;39m Root WebApplicationContext: initialization completed in 115 ms
-2022-08-09 09:57:10.339 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
-2022-08-09 09:57:10.368 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
-2022-08-09 09:57:10.373 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8888"]
-2022-08-09 09:57:10.375 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8888 (http) with context path ''
-2022-08-09 09:57:10.377 INFO  com.jiawa.wiki.config.WikiApplication             :61   [32m                  [0;39m Started WikiApplication in 0.224 seconds (JVM running for 37323.402)
-2022-08-09 09:57:10.378 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
-2022-08-09 09:57:10.379 INFO  com.jiawa.wiki.config.WikiApplication             :21   [32m                  [0;39m 启动成功!!!
-2022-08-09 09:57:10.379 INFO  com.jiawa.wiki.config.WikiApplication             :22   [32m                  [0;39m 地址: 	http://127.0.0.1:8888
-2022-08-09 09:58:48.825 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m                  [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
-2022-08-09 09:58:51.924 INFO  com.jiawa.wiki.config.WikiApplication             :55   [32m                  [0;39m Starting WikiApplication using Java 1.8.0_331 on appledembp with PID 48249 (/Users/apple/Downloads/wiki/target/classes started by apple in /Users/apple/Downloads/wiki)
-2022-08-09 09:58:51.925 INFO  com.jiawa.wiki.config.WikiApplication             :660  [32m                  [0;39m No active profile set, falling back to default profiles: default
-2022-08-09 09:58:52.033 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8888 (http)
-2022-08-09 09:58:52.033 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8888"]
-2022-08-09 09:58:52.033 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
-2022-08-09 09:58:52.033 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.39]
-2022-08-09 09:58:52.038 INFO  o.a.c.c.ContainerBase.[Tomcat-1].[localhost].[/]  :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
-2022-08-09 09:58:52.038 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :289  [32m                  [0;39m Root WebApplicationContext: initialization completed in 112 ms
-2022-08-09 09:58:52.083 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
-2022-08-09 09:58:52.107 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
-2022-08-09 09:58:52.111 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8888"]
-2022-08-09 09:58:52.113 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8888 (http) with context path ''
-2022-08-09 09:58:52.115 INFO  com.jiawa.wiki.config.WikiApplication             :61   [32m                  [0;39m Started WikiApplication in 3.23 seconds (JVM running for 37425.138)
-2022-08-09 09:58:52.116 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
-2022-08-09 09:58:52.116 INFO  com.jiawa.wiki.config.WikiApplication             :21   [32m                  [0;39m 启动成功!!!
-2022-08-09 09:58:52.116 INFO  com.jiawa.wiki.config.WikiApplication             :22   [32m                  [0;39m 地址: 	http://127.0.0.1:8888
-2022-08-09 10:02:06.505 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m                  [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
-2022-08-09 10:02:06.959 INFO  com.jiawa.wiki.config.WikiApplication             :55   [32m                  [0;39m Starting WikiApplication using Java 1.8.0_331 on appledembp with PID 48249 (/Users/apple/Downloads/wiki/target/classes started by apple in /Users/apple/Downloads/wiki)
-2022-08-09 10:02:06.959 INFO  com.jiawa.wiki.config.WikiApplication             :660  [32m                  [0;39m No active profile set, falling back to default profiles: default
-2022-08-09 10:02:07.067 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8888 (http)
-2022-08-09 10:02:07.067 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8888"]
-2022-08-09 10:02:07.068 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
-2022-08-09 10:02:07.068 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.39]
-2022-08-09 10:02:07.072 INFO  o.a.c.c.ContainerBase.[Tomcat-1].[localhost].[/]  :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
-2022-08-09 10:02:07.072 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :289  [32m                  [0;39m Root WebApplicationContext: initialization completed in 112 ms
-2022-08-09 10:02:07.115 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
-2022-08-09 10:02:07.140 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
-2022-08-09 10:02:07.144 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8888"]
-2022-08-09 10:02:07.146 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8888 (http) with context path ''
-2022-08-09 10:02:07.148 INFO  com.jiawa.wiki.config.WikiApplication             :61   [32m                  [0;39m Started WikiApplication in 0.571 seconds (JVM running for 37620.17)
-2022-08-09 10:02:07.149 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
-2022-08-09 10:02:07.149 INFO  com.jiawa.wiki.config.WikiApplication             :21   [32m                  [0;39m 启动成功!!!
-2022-08-09 10:02:07.149 INFO  com.jiawa.wiki.config.WikiApplication             :22   [32m                  [0;39m 地址: 	http://127.0.0.1:8888
-2022-08-09 10:14:20.267 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m                  [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
-2022-08-09 10:14:20.336 INFO  com.jiawa.wiki.config.WikiApplication             :55   [32m                  [0;39m Starting WikiApplication using Java 1.8.0_331 on appledembp with PID 48249 (/Users/apple/Downloads/wiki/target/classes started by apple in /Users/apple/Downloads/wiki)
-2022-08-09 10:14:20.337 INFO  com.jiawa.wiki.config.WikiApplication             :660  [32m                  [0;39m No active profile set, falling back to default profiles: default
-2022-08-09 10:14:20.438 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8888 (http)
-2022-08-09 10:14:20.439 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8888"]
-2022-08-09 10:14:20.439 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
-2022-08-09 10:14:20.439 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.39]
-2022-08-09 10:14:20.443 INFO  o.a.c.c.ContainerBase.[Tomcat-1].[localhost].[/]  :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
-2022-08-09 10:14:20.443 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :289  [32m                  [0;39m Root WebApplicationContext: initialization completed in 105 ms
-2022-08-09 10:14:20.473 WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext:596  [32m                  [0;39m Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'ebookController' defined in file [/Users/apple/Downloads/wiki/target/classes/com/jiawa/wiki/controller/EbookController.class]: Post-processing of merged bean definition failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [com.jiawa.wiki.controller.EbookController] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@25fd5d1c]
-2022-08-09 10:14:20.474 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Stopping service [Tomcat]
-2022-08-09 10:14:20.477 INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener:136  [32m                  [0;39m 
-
-Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
-2022-08-09 10:14:20.479 ERROR org.springframework.boot.SpringApplication        :856  [32m                  [0;39m Application run failed
-org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'ebookController' defined in file [/Users/apple/Downloads/wiki/target/classes/com/jiawa/wiki/controller/EbookController.class]: Post-processing of merged bean definition failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [com.jiawa.wiki.controller.EbookController] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@25fd5d1c]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:586)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:531)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
-	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:944)
-	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:925)
-	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:588)
-	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:144)
-	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:767)
-	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:759)
-	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:426)
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:326)
-	at com.jiawa.wiki.config.WikiApplication.main(WikiApplication.java:20)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
-Caused by: java.lang.IllegalStateException: Failed to introspect Class [com.jiawa.wiki.controller.EbookController] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@25fd5d1c]
-	at org.springframework.util.ReflectionUtils.getDeclaredFields(ReflectionUtils.java:737)
-	at org.springframework.util.ReflectionUtils.doWithLocalFields(ReflectionUtils.java:669)
-	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.buildResourceMetadata(CommonAnnotationBeanPostProcessor.java:366)
-	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.findResourceMetadata(CommonAnnotationBeanPostProcessor.java:347)
-	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessMergedBeanDefinition(CommonAnnotationBeanPostProcessor.java:295)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyMergedBeanDefinitionPostProcessors(AbstractAutowireCapableBeanFactory.java:1100)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:583)
-	... 19 common frames omitted
-Caused by: java.lang.NoClassDefFoundError: Lcom/jiawa/wiki/service/EbookService;
-	at java.lang.Class.getDeclaredFields0(Native Method)
-	at java.lang.Class.privateGetDeclaredFields(Class.java:2583)
-	at java.lang.Class.getDeclaredFields(Class.java:1916)
-	at org.springframework.util.ReflectionUtils.getDeclaredFields(ReflectionUtils.java:732)
-	... 25 common frames omitted
-Caused by: java.lang.ClassNotFoundException: com.jiawa.wiki.service.EbookService
-	at java.net.URLClassLoader.findClass(URLClassLoader.java:387)
-	at java.lang.ClassLoader.loadClass(ClassLoader.java:418)
-	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:355)
-	at java.lang.ClassLoader.loadClass(ClassLoader.java:351)
-	at java.lang.Class.forName0(Native Method)
-	at java.lang.Class.forName(Class.java:348)
-	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:144)
-	at java.lang.ClassLoader.loadClass(ClassLoader.java:351)
-	... 29 common frames omitted
-2022-08-09 10:16:30.968 INFO  com.jiawa.wiki.config.WikiApplication             :55   [32m                  [0;39m Starting WikiApplication using Java 1.8.0_331 on appledembp with PID 48249 (/Users/apple/Downloads/wiki/target/classes started by apple in /Users/apple/Downloads/wiki)
-2022-08-09 10:16:30.968 INFO  com.jiawa.wiki.config.WikiApplication             :660  [32m                  [0;39m No active profile set, falling back to default profiles: default
-2022-08-09 10:16:31.077 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8888 (http)
-2022-08-09 10:16:31.078 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8888"]
-2022-08-09 10:16:31.078 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
-2022-08-09 10:16:31.078 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.39]
-2022-08-09 10:16:31.083 INFO  o.a.c.c.ContainerBase.[Tomcat-2].[localhost].[/]  :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
-2022-08-09 10:16:31.083 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :289  [32m                  [0;39m Root WebApplicationContext: initialization completed in 114 ms
-2022-08-09 10:16:31.129 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
-2022-08-09 10:16:31.157 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
-2022-08-09 10:16:31.163 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8888"]
-2022-08-09 10:16:31.164 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8888 (http) with context path ''
-2022-08-09 10:16:31.167 INFO  com.jiawa.wiki.config.WikiApplication             :61   [32m                  [0;39m Started WikiApplication in 0.214 seconds (JVM running for 38484.085)
-2022-08-09 10:16:31.168 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
-2022-08-09 10:16:31.168 INFO  com.jiawa.wiki.config.WikiApplication             :21   [32m                  [0;39m 启动成功!!!
-2022-08-09 10:16:31.168 INFO  com.jiawa.wiki.config.WikiApplication             :22   [32m                  [0;39m 地址: 	http://127.0.0.1:8888
-2022-08-09 10:16:50.902 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m                  [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
-2022-08-09 10:16:50.986 INFO  com.jiawa.wiki.config.WikiApplication             :55   [32m                  [0;39m Starting WikiApplication using Java 1.8.0_331 on appledembp with PID 48249 (/Users/apple/Downloads/wiki/target/classes started by apple in /Users/apple/Downloads/wiki)
-2022-08-09 10:16:50.987 INFO  com.jiawa.wiki.config.WikiApplication             :660  [32m                  [0;39m No active profile set, falling back to default profiles: default
-2022-08-09 10:16:51.104 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8888 (http)
-2022-08-09 10:16:51.105 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8888"]
-2022-08-09 10:16:51.105 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
-2022-08-09 10:16:51.105 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.39]
-2022-08-09 10:16:51.111 INFO  o.a.c.c.ContainerBase.[Tomcat-2].[localhost].[/]  :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
-2022-08-09 10:16:51.112 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :289  [32m                  [0;39m Root WebApplicationContext: initialization completed in 124 ms
-2022-08-09 10:16:51.182 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
-2022-08-09 10:16:51.220 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
-2022-08-09 10:16:51.229 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8888"]
-2022-08-09 10:16:51.230 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8888 (http) with context path ''
-2022-08-09 10:16:51.234 INFO  com.jiawa.wiki.config.WikiApplication             :61   [32m                  [0;39m Started WikiApplication in 0.27 seconds (JVM running for 38504.152)
-2022-08-09 10:16:51.236 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
-2022-08-09 10:16:51.236 INFO  com.jiawa.wiki.config.WikiApplication             :21   [32m                  [0;39m 启动成功!!!
-2022-08-09 10:16:51.237 INFO  com.jiawa.wiki.config.WikiApplication             :22   [32m                  [0;39m 地址: 	http://127.0.0.1:8888
-2022-08-09 10:16:56.858 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m                  [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
-2022-08-09 10:16:56.928 INFO  com.jiawa.wiki.config.WikiApplication             :55   [32m                  [0;39m Starting WikiApplication using Java 1.8.0_331 on appledembp with PID 48249 (/Users/apple/Downloads/wiki/target/classes started by apple in /Users/apple/Downloads/wiki)
-2022-08-09 10:16:56.928 INFO  com.jiawa.wiki.config.WikiApplication             :660  [32m                  [0;39m No active profile set, falling back to default profiles: default
-2022-08-09 10:16:57.033 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8888 (http)
-2022-08-09 10:16:57.033 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8888"]
-2022-08-09 10:16:57.033 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
-2022-08-09 10:16:57.034 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.39]
-2022-08-09 10:16:57.038 INFO  o.a.c.c.ContainerBase.[Tomcat-2].[localhost].[/]  :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
-2022-08-09 10:16:57.039 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :289  [32m                  [0;39m Root WebApplicationContext: initialization completed in 109 ms
-2022-08-09 10:16:57.087 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
-2022-08-09 10:16:57.114 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
-2022-08-09 10:16:57.119 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8888"]
-2022-08-09 10:16:57.120 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8888 (http) with context path ''
-2022-08-09 10:16:57.122 INFO  com.jiawa.wiki.config.WikiApplication             :61   [32m                  [0;39m Started WikiApplication in 0.21 seconds (JVM running for 38510.039)
-2022-08-09 10:16:57.123 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
-2022-08-09 10:16:57.123 INFO  com.jiawa.wiki.config.WikiApplication             :21   [32m                  [0;39m 启动成功!!!
-2022-08-09 10:16:57.124 INFO  com.jiawa.wiki.config.WikiApplication             :22   [32m                  [0;39m 地址: 	http://127.0.0.1:8888
-2022-08-09 10:17:59.759 INFO  o.a.c.c.ContainerBase.[Tomcat-2].[localhost].[/]  :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
-2022-08-09 10:17:59.760 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
-2022-08-09 10:17:59.760 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 0 ms
-2022-08-09 10:17:59.766 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m                  [0;39m HikariPool-13 - Starting...
-2022-08-09 10:18:00.113 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m                  [0;39m HikariPool-13 - Start completed.
-2022-08-09 10:25:00.106 WARN  com.zaxxer.hikari.pool.HikariPool                 :779  [32m                  [0;39m HikariPool-13 - Retrograde clock change detected (housekeeper delta=29s849ms), soft-evicting connections from pool.
-2022-08-09 10:32:54.671 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m                  [0;39m HikariPool-13 - Thread starvation or clock leap detected (housekeeper delta=2m24s265ms).
-2022-08-09 10:38:36.342 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m                  [0;39m HikariPool-13 - Thread starvation or clock leap detected (housekeeper delta=5m11s663ms).
-2022-08-09 10:44:18.036 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m                  [0;39m HikariPool-13 - Thread starvation or clock leap detected (housekeeper delta=5m11s668ms).
-2022-08-09 10:49:30.877 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m                  [0;39m HikariPool-13 - Thread starvation or clock leap detected (housekeeper delta=5m12s841ms).
-2022-08-09 10:55:12.451 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m                  [0;39m HikariPool-13 - Thread starvation or clock leap detected (housekeeper delta=5m11s561ms).
-2022-08-09 11:00:54.070 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m                  [0;39m HikariPool-13 - Thread starvation or clock leap detected (housekeeper delta=5m11s613ms).
-2022-08-09 11:06:35.635 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m                  [0;39m HikariPool-13 - Thread starvation or clock leap detected (housekeeper delta=5m11s561ms).
-2022-08-09 11:11:47.246 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m                  [0;39m HikariPool-13 - Thread starvation or clock leap detected (housekeeper delta=5m11s611ms).
-2022-08-09 11:18:28.960 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m                  [0;39m HikariPool-13 - Thread starvation or clock leap detected (housekeeper delta=5m11s606ms).
-2022-08-09 11:23:40.882 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m                  [0;39m HikariPool-13 - Thread starvation or clock leap detected (housekeeper delta=5m11s922ms).
-2022-08-09 11:25:47.744 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m                  [0;39m HikariPool-13 - Thread starvation or clock leap detected (housekeeper delta=1m36s845ms).
-2022-08-09 12:38:00.910 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m                  [0;39m HikariPool-13 - Thread starvation or clock leap detected (housekeeper delta=5m11s613ms).
-2022-08-09 12:43:42.534 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m                  [0;39m HikariPool-13 - Thread starvation or clock leap detected (housekeeper delta=5m11s612ms).
-2022-08-09 12:48:54.003 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m                  [0;39m HikariPool-13 - Thread starvation or clock leap detected (housekeeper delta=5m11s469ms).
-2022-08-09 12:54:35.607 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m                  [0;39m HikariPool-13 - Thread starvation or clock leap detected (housekeeper delta=5m11s597ms).
-2022-08-09 13:00:17.230 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m                  [0;39m HikariPool-13 - Thread starvation or clock leap detected (housekeeper delta=5m11s629ms).
-2022-08-09 13:05:29.477 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m                  [0;39m HikariPool-13 - Thread starvation or clock leap detected (housekeeper delta=5m12s247ms).
-2022-08-09 13:11:10.982 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m                  [0;39m HikariPool-13 - Thread starvation or clock leap detected (housekeeper delta=5m11s502ms).
-2022-08-09 13:16:52.590 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m                  [0;39m HikariPool-13 - Thread starvation or clock leap detected (housekeeper delta=5m11s607ms).
-2022-08-09 13:22:39.169 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m                  [0;39m HikariPool-13 - Thread starvation or clock leap detected (housekeeper delta=5m16s578ms).
-2022-08-09 13:27:50.765 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m                  [0;39m HikariPool-13 - Thread starvation or clock leap detected (housekeeper delta=5m11s596ms).
-2022-08-09 13:33:32.407 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m                  [0;39m HikariPool-13 - Thread starvation or clock leap detected (housekeeper delta=5m11s631ms).
-2022-08-09 13:39:14.012 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m                  [0;39m HikariPool-13 - Thread starvation or clock leap detected (housekeeper delta=5m11s599ms).
-2022-08-09 13:44:26.037 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m                  [0;39m HikariPool-13 - Thread starvation or clock leap detected (housekeeper delta=5m12s25ms).
-2022-08-09 13:50:07.746 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m                  [0;39m HikariPool-13 - Thread starvation or clock leap detected (housekeeper delta=5m11s615ms).
-2022-08-09 13:54:30.271 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m                  [0;39m HikariPool-13 - Thread starvation or clock leap detected (housekeeper delta=3m52s515ms).
-2022-08-09 14:47:42.380 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m                  [0;39m HikariPool-13 - Thread starvation or clock leap detected (housekeeper delta=5m11s613ms).
-2022-08-09 14:51:55.621 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m                  [0;39m HikariPool-13 - Thread starvation or clock leap detected (housekeeper delta=3m43s234ms).
-2022-08-09 14:57:07.224 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m                  [0;39m HikariPool-13 - Thread starvation or clock leap detected (housekeeper delta=5m11s603ms).
-2022-08-09 15:02:48.852 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m                  [0;39m HikariPool-13 - Thread starvation or clock leap detected (housekeeper delta=5m11s623ms).
-2022-08-09 15:08:30.528 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m                  [0;39m HikariPool-13 - Thread starvation or clock leap detected (housekeeper delta=5m11s665ms).
-2022-08-09 15:14:42.434 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m                  [0;39m HikariPool-13 - Thread starvation or clock leap detected (housekeeper delta=5m11s616ms).
-2022-08-09 15:20:24.035 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m                  [0;39m HikariPool-13 - Thread starvation or clock leap detected (housekeeper delta=5m11s614ms).
-2022-08-09 15:26:05.691 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m                  [0;39m HikariPool-13 - Thread starvation or clock leap detected (housekeeper delta=5m11s649ms).
-2022-08-09 15:31:22.315 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m                  [0;39m HikariPool-13 - Thread starvation or clock leap detected (housekeeper delta=5m16s624ms).
-2022-08-09 15:33:31.569 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m                  [0;39m HikariPool-13 - Thread starvation or clock leap detected (housekeeper delta=1m39s249ms).
-2022-08-09 15:39:13.187 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m                  [0;39m HikariPool-13 - Thread starvation or clock leap detected (housekeeper delta=5m11s605ms).
-2022-08-09 15:44:25.374 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m                  [0;39m HikariPool-13 - Thread starvation or clock leap detected (housekeeper delta=5m12s187ms).
-2022-08-09 15:50:06.864 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m                  [0;39m HikariPool-13 - Thread starvation or clock leap detected (housekeeper delta=5m11s560ms).
-2022-08-09 15:55:48.483 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m                  [0;39m HikariPool-13 - Thread starvation or clock leap detected (housekeeper delta=5m11s616ms).
-2022-08-09 16:01:30.084 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m                  [0;39m HikariPool-13 - Thread starvation or clock leap detected (housekeeper delta=5m11s596ms).
-2022-08-09 16:06:41.706 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m                  [0;39m HikariPool-13 - Thread starvation or clock leap detected (housekeeper delta=5m11s622ms).
-2022-08-09 16:12:23.312 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m                  [0;39m HikariPool-13 - Thread starvation or clock leap detected (housekeeper delta=5m11s604ms).
-2022-08-09 16:18:04.917 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m                  [0;39m HikariPool-13 - Thread starvation or clock leap detected (housekeeper delta=5m11s603ms).
-2022-08-09 16:23:17.024 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m                  [0;39m HikariPool-13 - Thread starvation or clock leap detected (housekeeper delta=5m12s107ms).
-2022-08-09 16:29:58.560 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m                  [0;39m HikariPool-13 - Thread starvation or clock leap detected (housekeeper delta=5m11s601ms).
-2022-08-09 16:35:40.156 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m                  [0;39m HikariPool-13 - Thread starvation or clock leap detected (housekeeper delta=5m11s593ms).
-2022-08-09 16:40:51.765 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m                  [0;39m HikariPool-13 - Thread starvation or clock leap detected (housekeeper delta=5m11s609ms).
-2022-08-09 18:41:47.913 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m                  [0;39m HikariPool-13 - Thread starvation or clock leap detected (housekeeper delta=2h26s154ms).
-2022-08-09 20:00:11.518 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m                  [0;39m HikariPool-13 - Thread starvation or clock leap detected (housekeeper delta=1h17m53s597ms).
-2022-08-09 20:19:42.391 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m                  [0;39m HikariPool-13 - Thread starvation or clock leap detected (housekeeper delta=9m30s748ms).
-2022-08-09 21:05:33.077 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m                  [0;39m HikariPool-13 - Thread starvation or clock leap detected (housekeeper delta=35m20s553ms).
-2022-08-09 21:30:03.789 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m                  [0;39m HikariPool-13 - Thread starvation or clock leap detected (housekeeper delta=24m30s712ms).
-2022-08-09 21:46:27.270 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m                  [0;39m HikariPool-13 - Thread starvation or clock leap detected (housekeeper delta=15m53s531ms).
-2022-08-09 22:02:38.429 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m                  [0;39m HikariPool-13 - Thread starvation or clock leap detected (housekeeper delta=15m41s184ms).
-2022-08-09 22:33:08.450 WARN  com.zaxxer.hikari.pool.HikariPool                 :779  [32m                  [0;39m HikariPool-13 - Retrograde clock change detected (housekeeper delta=29s859ms), soft-evicting connections from pool.
+2022-08-10 01:47:59.700 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m                  [0;39m HikariPool-13 - Thread starvation or clock leap detected (housekeeper delta=2h25s595ms).
+2022-08-10 02:03:54.130 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m                  [0;39m HikariPool-13 - Thread starvation or clock leap detected (housekeeper delta=15m54s430ms).
+2022-08-10 02:20:17.701 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m                  [0;39m HikariPool-13 - Thread starvation or clock leap detected (housekeeper delta=15m53s536ms).
+2022-08-10 02:31:35.333 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m                  [0;39m HikariPool-13 - Thread starvation or clock leap detected (housekeeper delta=10m47s615ms).
+2022-08-10 02:39:35.806 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m                  [0;39m HikariPool-13 - Thread starvation or clock leap detected (housekeeper delta=7m30s461ms).
+2022-08-10 02:44:47.456 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m                  [0;39m HikariPool-13 - Thread starvation or clock leap detected (housekeeper delta=5m11s650ms).
+2022-08-10 02:50:29.087 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m                  [0;39m HikariPool-13 - Thread starvation or clock leap detected (housekeeper delta=5m11s622ms).
+2022-08-10 02:56:10.698 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m                  [0;39m HikariPool-13 - Thread starvation or clock leap detected (housekeeper delta=5m11s607ms).
+2022-08-10 03:01:22.778 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m                  [0;39m HikariPool-13 - Thread starvation or clock leap detected (housekeeper delta=5m12s80ms).
+2022-08-10 03:07:04.387 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m                  [0;39m HikariPool-13 - Thread starvation or clock leap detected (housekeeper delta=5m11s608ms).
+2022-08-10 03:12:46.092 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m                  [0;39m HikariPool-13 - Thread starvation or clock leap detected (housekeeper delta=5m11s700ms).
+2022-08-10 03:18:27.710 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m                  [0;39m HikariPool-13 - Thread starvation or clock leap detected (housekeeper delta=5m11s608ms).
+2022-08-10 03:23:39.321 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m                  [0;39m HikariPool-13 - Thread starvation or clock leap detected (housekeeper delta=5m11s611ms).
+2022-08-10 03:29:20.985 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m                  [0;39m HikariPool-13 - Thread starvation or clock leap detected (housekeeper delta=5m11s657ms).
+2022-08-10 03:35:02.597 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m                  [0;39m HikariPool-13 - Thread starvation or clock leap detected (housekeeper delta=5m11s607ms).
+2022-08-10 03:40:16.132 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m                  [0;39m HikariPool-13 - Thread starvation or clock leap detected (housekeeper delta=5m13s535ms).
+2022-08-10 03:45:57.757 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m                  [0;39m HikariPool-13 - Thread starvation or clock leap detected (housekeeper delta=5m11s622ms).
+2022-08-10 03:51:39.479 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m                  [0;39m HikariPool-13 - Thread starvation or clock leap detected (housekeeper delta=5m11s715ms).
+2022-08-10 03:57:21.094 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m                  [0;39m HikariPool-13 - Thread starvation or clock leap detected (housekeeper delta=5m11s608ms).
+2022-08-10 04:02:32.718 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m                  [0;39m HikariPool-13 - Thread starvation or clock leap detected (housekeeper delta=5m11s624ms).
+2022-08-10 04:08:14.240 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m                  [0;39m HikariPool-13 - Thread starvation or clock leap detected (housekeeper delta=5m11s506ms).
+2022-08-10 04:13:55.861 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m                  [0;39m HikariPool-13 - Thread starvation or clock leap detected (housekeeper delta=5m11s614ms).
+2022-08-10 04:19:08.064 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m                  [0;39m HikariPool-13 - Thread starvation or clock leap detected (housekeeper delta=5m12s203ms).
+2022-08-10 04:24:49.732 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m                  [0;39m HikariPool-13 - Thread starvation or clock leap detected (housekeeper delta=5m11s665ms).
+2022-08-10 04:30:31.384 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m                  [0;39m HikariPool-13 - Thread starvation or clock leap detected (housekeeper delta=5m11s649ms).
+2022-08-10 04:36:43.030 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m                  [0;39m HikariPool-13 - Thread starvation or clock leap detected (housekeeper delta=5m11s612ms).
+2022-08-10 04:42:24.631 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m                  [0;39m HikariPool-13 - Thread starvation or clock leap detected (housekeeper delta=5m11s598ms).
+2022-08-10 04:48:06.250 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m                  [0;39m HikariPool-13 - Thread starvation or clock leap detected (housekeeper delta=5m11s619ms).
+2022-08-10 04:53:19.427 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m                  [0;39m HikariPool-13 - Thread starvation or clock leap detected (housekeeper delta=5m13s177ms).
+2022-08-10 04:59:01.084 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m                  [0;39m HikariPool-13 - Thread starvation or clock leap detected (housekeeper delta=5m11s652ms).
+2022-08-10 05:04:42.713 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m                  [0;39m HikariPool-13 - Thread starvation or clock leap detected (housekeeper delta=5m11s625ms).
+2022-08-10 05:10:24.435 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m                  [0;39m HikariPool-13 - Thread starvation or clock leap detected (housekeeper delta=5m11s714ms).
+2022-08-10 05:15:36.061 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m                  [0;39m HikariPool-13 - Thread starvation or clock leap detected (housekeeper delta=5m11s626ms).
+2022-08-10 05:21:17.721 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m                  [0;39m HikariPool-13 - Thread starvation or clock leap detected (housekeeper delta=5m11s621ms).
+2022-08-10 05:26:59.486 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m                  [0;39m HikariPool-13 - Thread starvation or clock leap detected (housekeeper delta=5m11s760ms).
+2022-08-10 05:32:11.563 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m                  [0;39m HikariPool-13 - Thread starvation or clock leap detected (housekeeper delta=5m12s77ms).
+2022-08-10 05:37:53.278 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m                  [0;39m HikariPool-13 - Thread starvation or clock leap detected (housekeeper delta=5m11s691ms).
+2022-08-10 05:43:34.950 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m                  [0;39m HikariPool-13 - Thread starvation or clock leap detected (housekeeper delta=5m11s646ms).
+2022-08-10 05:49:16.554 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m                  [0;39m HikariPool-13 - Thread starvation or clock leap detected (housekeeper delta=5m11s597ms).
+2022-08-10 05:54:28.283 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m                  [0;39m HikariPool-13 - Thread starvation or clock leap detected (housekeeper delta=5m11s729ms).
+2022-08-10 06:00:09.901 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m                  [0;39m HikariPool-13 - Thread starvation or clock leap detected (housekeeper delta=5m11s612ms).
+2022-08-10 06:05:51.531 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m                  [0;39m HikariPool-13 - Thread starvation or clock leap detected (housekeeper delta=5m11s620ms).
+2022-08-10 06:11:09.156 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m                  [0;39m HikariPool-13 - Thread starvation or clock leap detected (housekeeper delta=5m17s625ms).
+2022-08-10 06:16:50.767 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m                  [0;39m HikariPool-13 - Thread starvation or clock leap detected (housekeeper delta=5m11s611ms).
+2022-08-10 06:22:32.392 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m                  [0;39m HikariPool-13 - Thread starvation or clock leap detected (housekeeper delta=5m11s620ms).
+2022-08-10 06:28:19.052 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m                  [0;39m HikariPool-13 - Thread starvation or clock leap detected (housekeeper delta=5m16s651ms).
+2022-08-10 06:33:30.669 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m                  [0;39m HikariPool-13 - Thread starvation or clock leap detected (housekeeper delta=5m11s617ms).
+2022-08-10 06:39:12.289 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m                  [0;39m HikariPool-13 - Thread starvation or clock leap detected (housekeeper delta=5m11s615ms).
+2022-08-10 06:44:53.914 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m                  [0;39m HikariPool-13 - Thread starvation or clock leap detected (housekeeper delta=5m11s614ms).
+2022-08-10 06:50:11.090 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m                  [0;39m HikariPool-13 - Thread starvation or clock leap detected (housekeeper delta=5m17s176ms).
+2022-08-10 06:55:52.707 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m                  [0;39m HikariPool-13 - Thread starvation or clock leap detected (housekeeper delta=5m11s609ms).
+2022-08-10 07:00:18.567 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m                  [0;39m HikariPool-13 - Thread starvation or clock leap detected (housekeeper delta=3m55s871ms).
+2022-08-10 07:06:00.194 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m                  [0;39m HikariPool-13 - Thread starvation or clock leap detected (housekeeper delta=5m11s620ms).
+2022-08-10 07:11:11.784 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m                  [0;39m HikariPool-13 - Thread starvation or clock leap detected (housekeeper delta=5m11s590ms).
+2022-08-10 07:16:53.395 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m                  [0;39m HikariPool-13 - Thread starvation or clock leap detected (housekeeper delta=5m11s610ms).
+2022-08-10 07:22:39.983 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m                  [0;39m HikariPool-13 - Thread starvation or clock leap detected (housekeeper delta=5m16s580ms).
+2022-08-10 07:27:51.618 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m                  [0;39m HikariPool-13 - Thread starvation or clock leap detected (housekeeper delta=5m11s635ms).
+2022-08-10 07:33:33.224 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m                  [0;39m HikariPool-13 - Thread starvation or clock leap detected (housekeeper delta=5m11s616ms).
+2022-08-10 07:39:14.842 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m                  [0;39m HikariPool-13 - Thread starvation or clock leap detected (housekeeper delta=5m11s613ms).
+2022-08-10 07:44:56.457 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m                  [0;39m HikariPool-13 - Thread starvation or clock leap detected (housekeeper delta=5m11s605ms).
+2022-08-10 07:50:08.053 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m                  [0;39m HikariPool-13 - Thread starvation or clock leap detected (housekeeper delta=5m11s596ms).
+2022-08-10 07:55:49.662 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m                  [0;39m HikariPool-13 - Thread starvation or clock leap detected (housekeeper delta=5m11s609ms).
+2022-08-10 08:01:31.272 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m                  [0;39m HikariPool-13 - Thread starvation or clock leap detected (housekeeper delta=5m11s603ms).
+2022-08-10 08:06:43.432 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m                  [0;39m HikariPool-13 - Thread starvation or clock leap detected (housekeeper delta=5m12s160ms).
+2022-08-10 08:07:13.268 WARN  com.zaxxer.hikari.pool.HikariPool                 :779  [32m                  [0;39m HikariPool-13 - Retrograde clock change detected (housekeeper delta=29s836ms), soft-evicting connections from pool.
+2022-08-10 08:12:24.913 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m                  [0;39m HikariPool-13 - Thread starvation or clock leap detected (housekeeper delta=5m11s645ms).
+2022-08-10 08:18:06.558 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m                  [0;39m HikariPool-13 - Thread starvation or clock leap detected (housekeeper delta=5m11s651ms).
+2022-08-10 08:23:48.080 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m                  [0;39m HikariPool-13 - Thread starvation or clock leap detected (housekeeper delta=5m11s518ms).
+2022-08-10 08:28:59.602 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m                  [0;39m HikariPool-13 - Thread starvation or clock leap detected (housekeeper delta=5m11s522ms).
+2022-08-10 08:34:41.205 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m                  [0;39m HikariPool-13 - Thread starvation or clock leap detected (housekeeper delta=5m11s585ms).
+2022-08-10 08:40:22.897 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m                  [0;39m HikariPool-13 - Thread starvation or clock leap detected (housekeeper delta=5m11s698ms).
+2022-08-10 08:45:35.080 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m                  [0;39m HikariPool-13 - Thread starvation or clock leap detected (housekeeper delta=5m12s183ms).
+2022-08-10 08:51:16.712 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m                  [0;39m HikariPool-13 - Thread starvation or clock leap detected (housekeeper delta=5m11s610ms).
+2022-08-10 08:56:58.358 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m                  [0;39m HikariPool-13 - Thread starvation or clock leap detected (housekeeper delta=5m11s639ms).
+2022-08-10 09:02:40.004 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m                  [0;39m HikariPool-13 - Thread starvation or clock leap detected (housekeeper delta=5m11s619ms).
+2022-08-10 09:07:51.525 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m                  [0;39m HikariPool-13 - Thread starvation or clock leap detected (housekeeper delta=5m11s522ms).
+2022-08-10 09:13:33.150 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m                  [0;39m HikariPool-13 - Thread starvation or clock leap detected (housekeeper delta=5m11s624ms).
+2022-08-10 09:19:14.759 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m                  [0;39m HikariPool-13 - Thread starvation or clock leap detected (housekeeper delta=5m11s599ms).
+2022-08-10 09:24:26.865 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m                  [0;39m HikariPool-13 - Thread starvation or clock leap detected (housekeeper delta=5m12s106ms).
+2022-08-10 09:31:08.687 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m                  [0;39m HikariPool-13 - Thread starvation or clock leap detected (housekeeper delta=5m11s739ms).
+2022-08-10 09:36:50.331 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m                  [0;39m HikariPool-13 - Thread starvation or clock leap detected (housekeeper delta=5m11s633ms).
+2022-08-10 09:42:02.016 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m                  [0;39m HikariPool-13 - Thread starvation or clock leap detected (housekeeper delta=5m11s685ms).
+2022-08-10 09:47:43.617 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m                  [0;39m HikariPool-13 - Thread starvation or clock leap detected (housekeeper delta=5m11s591ms).
+2022-08-10 09:53:25.272 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m                  [0;39m HikariPool-13 - Thread starvation or clock leap detected (housekeeper delta=5m11s645ms).
+2022-08-10 09:58:37.381 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m                  [0;39m HikariPool-13 - Thread starvation or clock leap detected (housekeeper delta=5m12s109ms).
+2022-08-10 10:04:19.014 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m                  [0;39m HikariPool-13 - Thread starvation or clock leap detected (housekeeper delta=5m11s612ms).
+2022-08-10 10:10:00.626 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m                  [0;39m HikariPool-13 - Thread starvation or clock leap detected (housekeeper delta=5m11s597ms).
+2022-08-10 10:15:42.243 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m                  [0;39m HikariPool-13 - Thread starvation or clock leap detected (housekeeper delta=5m11s615ms).
+2022-08-10 10:20:58.850 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m                  [0;39m HikariPool-13 - Thread starvation or clock leap detected (housekeeper delta=5m16s607ms).
+2022-08-10 10:26:40.446 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m                  [0;39m HikariPool-13 - Thread starvation or clock leap detected (housekeeper delta=5m11s592ms).
+2022-08-10 10:29:44.851 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m                  [0;39m HikariPool-13 - Thread starvation or clock leap detected (housekeeper delta=2m34s407ms).

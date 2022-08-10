@@ -7,10 +7,10 @@
       >
         <a-sub-menu key="sub1">
           <template #title>
-                <span>
-                  <user-outlined />
-                  subnav 1
-                </span>
+              <span>
+                <user-outlined />
+                subnav 1
+              </span>
           </template>
           <a-menu-item key="1">option1</a-menu-item>
           <a-menu-item key="2">option2</a-menu-item>
@@ -19,10 +19,10 @@
         </a-sub-menu>
         <a-sub-menu key="sub2">
           <template #title>
-                <span>
-                  <laptop-outlined />
-                  subnav 2
-                </span>
+              <span>
+                <laptop-outlined />
+                subnav 2
+              </span>
           </template>
           <a-menu-item key="5">option5</a-menu-item>
           <a-menu-item key="6">option6</a-menu-item>
@@ -31,10 +31,10 @@
         </a-sub-menu>
         <a-sub-menu key="sub3">
           <template #title>
-                <span>
-                  <notification-outlined />
-                  subnav 3
-                </span>
+              <span>
+                <notification-outlined />
+                subnav 3
+              </span>
           </template>
           <a-menu-item key="9">option9</a-menu-item>
           <a-menu-item key="10">option10</a-menu-item>
@@ -43,23 +43,36 @@
         </a-sub-menu>
       </a-menu>
     </a-layout-sider>
-    <a-layout-content
-        :style="{ background: '#fff', padding: '24px', margin: 0, minHeight: '280px' }"
-    >
-      Content
+    <a-layout-content :style="{ padding: '0 24px', minHeight: '280px' }">
+      <pre>
+{{ ebooks }}
+      </pre>
     </a-layout-content>
   </a-layout>
 </template>
 
 <script lang="ts">
-import { defineComponent } from 'vue';
+import { defineComponent, onMounted, ref } from 'vue';
 import axios from 'axios';
 
 export default defineComponent({
   name: 'Home',
   setup() {
     console.log("setup");
-    axios.get("http://localhost:8888/ebook/list?name=Spring").then((response) => {console.log(response);})
+    const ebooks = ref();
+
+    onMounted(() => {
+      console.log("onMounted");
+      axios.get("http://localhost:8888/ebook/list?name=Spring").then((response) => {
+        const data = response.data;
+        ebooks.value = data.content;
+        console.log(response);
+      });
+    });
+
+    return {
+      ebooks
+    }
   }
 });
 </script>

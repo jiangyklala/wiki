@@ -43,13 +43,13 @@
         </a-sub-menu>
       </a-menu>
     </a-layout-sider>
-    <a-layout-content :style="{ padding: '0 24px', minHeight: '280px'}" style="background: #fff">
+    <a-layout-content :style="{background: '#fff', padding: '24px', margin: 0, minHeight: '280px'}">
       <a-list item-layout="vertical" size="large" :grid="{ gutter: 20, column: 3}" :data-source="ebooks">
         <template #renderItem="{ item }">
           <a-list-item key="item.name">
             <template #actions>
               <span v-for="{ type, text } in actions" :key="type">
-                <component :is="type" style="margin-right: 8px" />
+                <component :is="type" style="margin-right: 8px"/>
                 {{ text }}
               </span>
             </template>
@@ -57,7 +57,9 @@
               <template #title>
                 <a :href="item.href">{{ item.name }}</a>
               </template>
-              <template #avatar><a-avatar :src="item.cover" /></template>
+              <template #avatar>
+                <a-avatar :src="item.cover"/>
+              </template>
             </a-list-item-meta>
           </a-list-item>
         </template>
@@ -67,7 +69,7 @@
 </template>
 
 <script lang="ts">
-import { defineComponent, onMounted, ref } from 'vue';
+import {defineComponent, onMounted, ref} from 'vue';
 import axios from 'axios';
 
 export default defineComponent({

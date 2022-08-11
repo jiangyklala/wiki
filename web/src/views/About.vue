@@ -1,11 +1,24 @@
 <template>
   <a-layout>
+    <a-layout-header class="header">
+      <div class="logo" />
+      <a-menu
+          theme="dark"
+          mode="horizontal"
+          v-model:selectedKeys="selectedKeys1"
+          :style="{ lineHeight: '64px' }"
+      >
+        <a-menu-item key="1">nav 1</a-menu-item>
+        <a-menu-item key="2">nav 2</a-menu-item>
+        <a-menu-item key="3">nav 3</a-menu-item>
+      </a-menu>
+    </a-layout-header>
     <a-layout>
       <a-layout-sider width="200" style="background: #fff">
         <a-menu
+            mode="inline"
             v-model:selectedKeys="selectedKeys2"
             v-model:openKeys="openKeys"
-            mode="inline"
             :style="{ height: '100%', borderRight: 0 }"
         >
           <a-sub-menu key="sub1">

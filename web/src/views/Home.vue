@@ -44,7 +44,7 @@
       </a-menu>
     </a-layout-sider>
     <a-layout-content :style="{ padding: '0 24px', minHeight: '280px'}" style="background: #fff">
-      <a-list item-layout="vertical" size="large" :grid="{ gutter: 20, column: 3}" :pagination="pagination" :data-source="ebooks">
+      <a-list item-layout="vertical" size="large" :grid="{ gutter: 20, column: 3}" :data-source="ebooks">
         <template #renderItem="{ item }">
           <a-list-item key="item.name">
             <template #actions>
@@ -70,19 +70,6 @@
 import { defineComponent, onMounted, ref } from 'vue';
 import axios from 'axios';
 
-const listData: Record<string, string>[] = [];
-for (let i = 0; i < 23; i++) {
-  listData.push({
-    href: 'https://www.antdv.com/',
-    title: `ant design vue part ${i}`,
-    avatar: 'https://joeschmoe.io/api/v1/random',
-    description:
-        'Ant Design, a design language for background applications, is refined by Ant UED Team.',
-    content:
-        'We supply a series of design principles, practical patterns and high quality design resources (Sketch and Axure), to help people create their product prototypes beautifully and efficiently.',
-  });
-}
-
 export default defineComponent({
   name: 'Home',
   setup() {
@@ -91,7 +78,7 @@ export default defineComponent({
 
     onMounted(() => {
       console.log("onMounted");
-      axios.get("http://localhost:8888/ebook/list?name=Spring").then((response) => {
+      axios.get("http://localhost:8888/ebook/list").then((response) => {
         const data = response.data;
         ebooks.value = data.content;
         console.log(response);
@@ -100,7 +87,6 @@ export default defineComponent({
 
     return {
       ebooks,
-      listData,
       pagination: {
         onChange: (page: any) => {
           console.log(page);
@@ -116,3 +102,13 @@ export default defineComponent({
   }
 });
 </script>
+
+<style scoped>
+  .ant-avatar {
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 8%;
+    margin: 5px 0;
+  }
+</style>

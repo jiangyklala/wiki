@@ -430,3 +430,129 @@ java.lang.ClassNotFoundException: com.github.pagehelper.PageHelper
 2022-08-12 13:49:40.956 INFO  com.jiawa.wiki.service.EbookService               :38   [32m                  [0;39m 总页数: 2
 2022-08-12 13:49:40.961 INFO  com.jiawa.wiki.aspect.LogAspect                   :79   [32m                  [0;39m 返回结果: {"content":[{"description":"零基础入门Java开发,企业级应用开发最佳首选框架","id":1,"name":"SpringBoot入门教程"},{"description":"零基础入门 Vue开发,企业级应用开发最佳首选框架","id":2,"name":"Vue 入门教程"},{"description":"零基础入门 Python开发,企业级应用开发最佳首选框架","id":3,"name":"Python 入门教程"}],"success":true}
 2022-08-12 13:49:40.962 INFO  com.jiawa.wiki.aspect.LogAspect                   :80   [32m                  [0;39m ------------- 结束 耗时：483 ms -------------
+2022-08-12 13:58:07.622 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m                  [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2022-08-12 13:58:07.623 INFO  com.zaxxer.hikari.HikariDataSource                :350  [32m                  [0;39m HikariPool-3 - Shutdown initiated...
+2022-08-12 13:58:07.626 INFO  com.zaxxer.hikari.HikariDataSource                :352  [32m                  [0;39m HikariPool-3 - Shutdown completed.
+2022-08-12 13:58:07.719 INFO  com.jiawa.wiki.config.WikiApplication             :55   [32m                  [0;39m Starting WikiApplication using Java 1.8.0_331 on appledembp with PID 83949 (/Users/apple/Downloads/wiki/target/classes started by apple in /Users/apple/Downloads/wiki)
+2022-08-12 13:58:07.719 INFO  com.jiawa.wiki.config.WikiApplication             :660  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2022-08-12 13:58:07.877 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8888 (http)
+2022-08-12 13:58:07.878 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8888"]
+2022-08-12 13:58:07.878 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2022-08-12 13:58:07.878 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.39]
+2022-08-12 13:58:07.883 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2022-08-12 13:58:07.883 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :289  [32m                  [0;39m Root WebApplicationContext: initialization completed in 161 ms
+2022-08-12 13:58:08.011 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2022-08-12 13:58:08.119 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
+2022-08-12 13:58:08.125 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8888"]
+2022-08-12 13:58:08.127 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8888 (http) with context path ''
+2022-08-12 13:58:08.129 INFO  com.jiawa.wiki.config.WikiApplication             :61   [32m                  [0;39m Started WikiApplication in 0.431 seconds (JVM running for 1260.385)
+2022-08-12 13:58:08.130 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2022-08-12 13:58:08.131 INFO  com.jiawa.wiki.config.WikiApplication             :21   [32m                  [0;39m 启动成功!!!
+2022-08-12 13:58:08.131 INFO  com.jiawa.wiki.config.WikiApplication             :22   [32m                  [0;39m 地址: 	http://127.0.0.1:8888
+2022-08-12 13:58:10.732 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m                  [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2022-08-12 13:58:10.841 INFO  com.jiawa.wiki.config.WikiApplication             :55   [32m                  [0;39m Starting WikiApplication using Java 1.8.0_331 on appledembp with PID 83949 (/Users/apple/Downloads/wiki/target/classes started by apple in /Users/apple/Downloads/wiki)
+2022-08-12 13:58:10.841 INFO  com.jiawa.wiki.config.WikiApplication             :660  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2022-08-12 13:58:10.989 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8888 (http)
+2022-08-12 13:58:10.990 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8888"]
+2022-08-12 13:58:10.990 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2022-08-12 13:58:10.990 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.39]
+2022-08-12 13:58:10.995 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2022-08-12 13:58:10.995 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :289  [32m                  [0;39m Root WebApplicationContext: initialization completed in 152 ms
+2022-08-12 13:58:11.113 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2022-08-12 13:58:11.223 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
+2022-08-12 13:58:11.229 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8888"]
+2022-08-12 13:58:11.231 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8888 (http) with context path ''
+2022-08-12 13:58:11.233 INFO  com.jiawa.wiki.config.WikiApplication             :61   [32m                  [0;39m Started WikiApplication in 0.412 seconds (JVM running for 1263.489)
+2022-08-12 13:58:11.234 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2022-08-12 13:58:11.234 INFO  com.jiawa.wiki.config.WikiApplication             :21   [32m                  [0;39m 启动成功!!!
+2022-08-12 13:58:11.235 INFO  com.jiawa.wiki.config.WikiApplication             :22   [32m                  [0;39m 地址: 	http://127.0.0.1:8888
+2022-08-12 13:58:13.082 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-08-12 13:58:13.083 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2022-08-12 13:58:13.084 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 1 ms
+2022-08-12 13:58:13.089 INFO  com.jiawa.wiki.aspect.LogAspect                   :44   [32m                  [0;39m ------------- 开始 -------------
+2022-08-12 13:58:13.089 INFO  com.jiawa.wiki.aspect.LogAspect                   :45   [32m                  [0;39m 请求地址: http://localhost:8888/ebook/list GET
+2022-08-12 13:58:13.089 INFO  com.jiawa.wiki.aspect.LogAspect                   :46   [32m                  [0;39m 类名方法: com.jiawa.wiki.controller.EbookController.list
+2022-08-12 13:58:13.089 INFO  com.jiawa.wiki.aspect.LogAspect                   :47   [32m                  [0;39m 远程地址: 127.0.0.1
+2022-08-12 13:58:13.090 INFO  com.jiawa.wiki.aspect.LogAspect                   :67   [32m                  [0;39m 请求参数: [{"page":1,"size":4}]
+2022-08-12 13:58:13.095 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m                  [0;39m HikariPool-4 - Starting...
+2022-08-12 13:58:13.479 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m                  [0;39m HikariPool-4 - Start completed.
+2022-08-12 13:58:13.480 DEBUG c.j.wiki.mapper.EbookMapper.selectByExample_COUNT :137  [32m                  [0;39m ==>  Preparing: SELECT count(0) FROM ebook
+2022-08-12 13:58:13.480 DEBUG c.j.wiki.mapper.EbookMapper.selectByExample_COUNT :137  [32m                  [0;39m ==> Parameters: 
+2022-08-12 13:58:13.513 TRACE c.j.wiki.mapper.EbookMapper.selectByExample_COUNT :143  [32m                  [0;39m <==    Columns: count(0)
+2022-08-12 13:58:13.514 TRACE c.j.wiki.mapper.EbookMapper.selectByExample_COUNT :143  [32m                  [0;39m <==        Row: 5
+2022-08-12 13:58:13.514 DEBUG c.j.wiki.mapper.EbookMapper.selectByExample_COUNT :137  [32m                  [0;39m <==      Total: 1
+2022-08-12 13:58:13.515 DEBUG com.jiawa.wiki.mapper.EbookMapper.selectByExample :137  [32m                  [0;39m ==>  Preparing: select id, `name`, category1_id, category2_id, description, cover, doc_count, view_count, vote_count from ebook LIMIT ?
+2022-08-12 13:58:13.515 DEBUG com.jiawa.wiki.mapper.EbookMapper.selectByExample :137  [32m                  [0;39m ==> Parameters: 4(Integer)
+2022-08-12 13:58:13.549 TRACE com.jiawa.wiki.mapper.EbookMapper.selectByExample :143  [32m                  [0;39m <==    Columns: id, name, category1_id, category2_id, description, cover, doc_count, view_count, vote_count
+2022-08-12 13:58:13.550 TRACE com.jiawa.wiki.mapper.EbookMapper.selectByExample :143  [32m                  [0;39m <==        Row: 1, SpringBoot入门教程, null, null, 零基础入门Java开发,企业级应用开发最佳首选框架, null, null, null, null
+2022-08-12 13:58:13.551 TRACE com.jiawa.wiki.mapper.EbookMapper.selectByExample :143  [32m                  [0;39m <==        Row: 2, Vue 入门教程, null, null, 零基础入门 Vue开发,企业级应用开发最佳首选框架, null, null, null, null
+2022-08-12 13:58:13.552 TRACE com.jiawa.wiki.mapper.EbookMapper.selectByExample :143  [32m                  [0;39m <==        Row: 3, Python 入门教程, null, null, 零基础入门 Python开发,企业级应用开发最佳首选框架, null, null, null, null
+2022-08-12 13:58:13.552 TRACE com.jiawa.wiki.mapper.EbookMapper.selectByExample :143  [32m                  [0;39m <==        Row: 4, Mysql 入门教程, null, null, 零基础入门 Mysql开发,企业级应用开发最佳首选框架, null, null, null, null
+2022-08-12 13:58:13.552 DEBUG com.jiawa.wiki.mapper.EbookMapper.selectByExample :137  [32m                  [0;39m <==      Total: 4
+2022-08-12 13:58:13.553 INFO  com.jiawa.wiki.service.EbookService               :37   [32m                  [0;39m 总行数: 5
+2022-08-12 13:58:13.553 INFO  com.jiawa.wiki.service.EbookService               :38   [32m                  [0;39m 总页数: 2
+2022-08-12 13:58:13.558 INFO  com.jiawa.wiki.aspect.LogAspect                   :79   [32m                  [0;39m 返回结果: {"content":[{"description":"零基础入门Java开发,企业级应用开发最佳首选框架","id":1,"name":"SpringBoot入门教程"},{"description":"零基础入门 Vue开发,企业级应用开发最佳首选框架","id":2,"name":"Vue 入门教程"},{"description":"零基础入门 Python开发,企业级应用开发最佳首选框架","id":3,"name":"Python 入门教程"},{"description":"零基础入门 Mysql开发,企业级应用开发最佳首选框架","id":4,"name":"Mysql 入门教程"}],"success":true}
+2022-08-12 13:58:13.558 INFO  com.jiawa.wiki.aspect.LogAspect                   :80   [32m                  [0;39m ------------- 结束 耗时：470 ms -------------
+2022-08-12 14:13:15.490 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m                  [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2022-08-12 14:13:15.491 INFO  com.zaxxer.hikari.HikariDataSource                :350  [32m                  [0;39m HikariPool-4 - Shutdown initiated...
+2022-08-12 14:13:15.494 INFO  com.zaxxer.hikari.HikariDataSource                :352  [32m                  [0;39m HikariPool-4 - Shutdown completed.
+2022-08-12 14:13:15.567 INFO  com.jiawa.wiki.config.WikiApplication             :55   [32m                  [0;39m Starting WikiApplication using Java 1.8.0_331 on appledembp with PID 83949 (/Users/apple/Downloads/wiki/target/classes started by apple in /Users/apple/Downloads/wiki)
+2022-08-12 14:13:15.567 INFO  com.jiawa.wiki.config.WikiApplication             :660  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2022-08-12 14:13:15.717 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8888 (http)
+2022-08-12 14:13:15.718 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8888"]
+2022-08-12 14:13:15.718 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2022-08-12 14:13:15.718 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.39]
+2022-08-12 14:13:15.723 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2022-08-12 14:13:15.723 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :289  [32m                  [0;39m Root WebApplicationContext: initialization completed in 155 ms
+2022-08-12 14:13:15.846 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2022-08-12 14:13:15.954 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
+2022-08-12 14:13:15.960 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8888"]
+2022-08-12 14:13:15.961 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8888 (http) with context path ''
+2022-08-12 14:13:15.964 INFO  com.jiawa.wiki.config.WikiApplication             :61   [32m                  [0;39m Started WikiApplication in 0.419 seconds (JVM running for 2168.268)
+2022-08-12 14:13:15.965 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2022-08-12 14:13:15.965 INFO  com.jiawa.wiki.config.WikiApplication             :21   [32m                  [0;39m 启动成功!!!
+2022-08-12 14:13:15.966 INFO  com.jiawa.wiki.config.WikiApplication             :22   [32m                  [0;39m 地址: 	http://127.0.0.1:8888
+2022-08-12 14:13:18.608 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m                  [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2022-08-12 14:13:18.712 INFO  com.jiawa.wiki.config.WikiApplication             :55   [32m                  [0;39m Starting WikiApplication using Java 1.8.0_331 on appledembp with PID 83949 (/Users/apple/Downloads/wiki/target/classes started by apple in /Users/apple/Downloads/wiki)
+2022-08-12 14:13:18.712 INFO  com.jiawa.wiki.config.WikiApplication             :660  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2022-08-12 14:13:18.843 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8888 (http)
+2022-08-12 14:13:18.844 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8888"]
+2022-08-12 14:13:18.844 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2022-08-12 14:13:18.844 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.39]
+2022-08-12 14:13:18.849 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2022-08-12 14:13:18.849 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :289  [32m                  [0;39m Root WebApplicationContext: initialization completed in 135 ms
+2022-08-12 14:13:18.962 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2022-08-12 14:13:19.063 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
+2022-08-12 14:13:19.070 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8888"]
+2022-08-12 14:13:19.071 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8888 (http) with context path ''
+2022-08-12 14:13:19.074 INFO  com.jiawa.wiki.config.WikiApplication             :61   [32m                  [0;39m Started WikiApplication in 0.376 seconds (JVM running for 2171.377)
+2022-08-12 14:13:19.075 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2022-08-12 14:13:19.075 INFO  com.jiawa.wiki.config.WikiApplication             :21   [32m                  [0;39m 启动成功!!!
+2022-08-12 14:13:19.075 INFO  com.jiawa.wiki.config.WikiApplication             :22   [32m                  [0;39m 地址: 	http://127.0.0.1:8888
+2022-08-12 14:13:44.770 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-08-12 14:13:44.771 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2022-08-12 14:13:44.771 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 0 ms
+2022-08-12 14:13:44.776 INFO  com.jiawa.wiki.aspect.LogAspect                   :44   [32m                  [0;39m ------------- 开始 -------------
+2022-08-12 14:13:44.776 INFO  com.jiawa.wiki.aspect.LogAspect                   :45   [32m                  [0;39m 请求地址: http://localhost:8888/ebook/list GET
+2022-08-12 14:13:44.777 INFO  com.jiawa.wiki.aspect.LogAspect                   :46   [32m                  [0;39m 类名方法: com.jiawa.wiki.controller.EbookController.list
+2022-08-12 14:13:44.777 INFO  com.jiawa.wiki.aspect.LogAspect                   :47   [32m                  [0;39m 远程地址: 127.0.0.1
+2022-08-12 14:13:44.777 INFO  com.jiawa.wiki.aspect.LogAspect                   :67   [32m                  [0;39m 请求参数: [{"page":1,"size":4}]
+2022-08-12 14:13:44.782 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m                  [0;39m HikariPool-5 - Starting...
+2022-08-12 14:13:45.142 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m                  [0;39m HikariPool-5 - Start completed.
+2022-08-12 14:13:45.143 DEBUG c.j.wiki.mapper.EbookMapper.selectByExample_COUNT :137  [32m                  [0;39m ==>  Preparing: SELECT count(0) FROM ebook
+2022-08-12 14:13:45.144 DEBUG c.j.wiki.mapper.EbookMapper.selectByExample_COUNT :137  [32m                  [0;39m ==> Parameters: 
+2022-08-12 14:13:45.176 TRACE c.j.wiki.mapper.EbookMapper.selectByExample_COUNT :143  [32m                  [0;39m <==    Columns: count(0)
+2022-08-12 14:13:45.177 TRACE c.j.wiki.mapper.EbookMapper.selectByExample_COUNT :143  [32m                  [0;39m <==        Row: 5
+2022-08-12 14:13:45.177 DEBUG c.j.wiki.mapper.EbookMapper.selectByExample_COUNT :137  [32m                  [0;39m <==      Total: 1
+2022-08-12 14:13:45.178 DEBUG com.jiawa.wiki.mapper.EbookMapper.selectByExample :137  [32m                  [0;39m ==>  Preparing: select id, `name`, category1_id, category2_id, description, cover, doc_count, view_count, vote_count from ebook LIMIT ?
+2022-08-12 14:13:45.178 DEBUG com.jiawa.wiki.mapper.EbookMapper.selectByExample :137  [32m                  [0;39m ==> Parameters: 4(Integer)
+2022-08-12 14:13:45.218 TRACE com.jiawa.wiki.mapper.EbookMapper.selectByExample :143  [32m                  [0;39m <==    Columns: id, name, category1_id, category2_id, description, cover, doc_count, view_count, vote_count
+2022-08-12 14:13:45.219 TRACE com.jiawa.wiki.mapper.EbookMapper.selectByExample :143  [32m                  [0;39m <==        Row: 1, SpringBoot入门教程, null, null, 零基础入门Java开发,企业级应用开发最佳首选框架, null, null, null, null
+2022-08-12 14:13:45.219 TRACE com.jiawa.wiki.mapper.EbookMapper.selectByExample :143  [32m                  [0;39m <==        Row: 2, Vue 入门教程, null, null, 零基础入门 Vue开发,企业级应用开发最佳首选框架, null, null, null, null
+2022-08-12 14:13:45.219 TRACE com.jiawa.wiki.mapper.EbookMapper.selectByExample :143  [32m                  [0;39m <==        Row: 3, Python 入门教程, null, null, 零基础入门 Python开发,企业级应用开发最佳首选框架, null, null, null, null
+2022-08-12 14:13:45.220 TRACE com.jiawa.wiki.mapper.EbookMapper.selectByExample :143  [32m                  [0;39m <==        Row: 4, Mysql 入门教程, null, null, 零基础入门 Mysql开发,企业级应用开发最佳首选框架, null, null, null, null
+2022-08-12 14:13:45.220 DEBUG com.jiawa.wiki.mapper.EbookMapper.selectByExample :137  [32m                  [0;39m <==      Total: 4
+2022-08-12 14:13:45.221 INFO  com.jiawa.wiki.service.EbookService               :38   [32m                  [0;39m 总行数: 5
+2022-08-12 14:13:45.221 INFO  com.jiawa.wiki.service.EbookService               :39   [32m                  [0;39m 总页数: 2
+2022-08-12 14:13:45.225 INFO  com.jiawa.wiki.aspect.LogAspect                   :79   [32m                  [0;39m 返回结果: {"content":{"list":[{"description":"零基础入门Java开发,企业级应用开发最佳首选框架","id":1,"name":"SpringBoot入门教程"},{"description":"零基础入门 Vue开发,企业级应用开发最佳首选框架","id":2,"name":"Vue 入门教程"},{"description":"零基础入门 Python开发,企业级应用开发最佳首选框架","id":3,"name":"Python 入门教程"},{"description":"零基础入门 Mysql开发,企业级应用开发最佳首选框架","id":4,"name":"Mysql 入门教程"}],"total":5},"success":true}
+2022-08-12 14:13:45.225 INFO  com.jiawa.wiki.aspect.LogAspect                   :80   [32m                  [0;39m ------------- 结束 耗时：449 ms -------------

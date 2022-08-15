@@ -19,8 +19,8 @@ public class SnowFlake {
      * 每一部分占用的位数
      */
     private final static long SEQUENCE_BIT = 12; //序列号占用的位数
-    private final static long MACHINE_BIT = 5;   //机器标识占用的位数
-    private final static long DATACENTER_BIT = 5;//数据中心占用的位数
+    private final static long MACHINE_BIT = 1;   //机器标识占用的位数
+    private final static long DATACENTER_BIT = 1;//数据中心占用的位数
 
     /**
      * 每一部分的最大值
@@ -106,13 +106,16 @@ public class SnowFlake {
         // String dateTime = "2021-01-01 08:00:00";
         // SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd hh:mm:ss");
         // System.out.println(sdf.parse(dateTime).getTime());
+//
+//        SnowFlake snowFlake = new SnowFlake(1, 1);
+//
+//        long start = System.currentTimeMillis();
+//        for (int i = 0; i < 1; i++) {
+//            System.out.println(snowFlake.nextId());
+//            System.out.println(System.currentTimeMillis() - start);
+//        }
+        SnowFlake snowFlake = new SnowFlake();
 
-        SnowFlake snowFlake = new SnowFlake(1, 1);
-
-        long start = System.currentTimeMillis();
-        for (int i = 0; i < 10; i++) {
-            System.out.println(snowFlake.nextId());
-            System.out.println(System.currentTimeMillis() - start);
-        }
+        System.out.println(snowFlake.nextId());
     }
 }

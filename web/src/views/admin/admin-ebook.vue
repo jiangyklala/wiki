@@ -74,7 +74,7 @@ export default defineComponent({
     const ebooks = ref();
     const pagination = ref({
       current: 1,
-      pageSize: 101,
+      pageSize: 100,
       total: 0
     });
     const loading = ref(false);
@@ -159,19 +159,22 @@ export default defineComponent({
     const ebook = ref({});
     const modalVisible = ref(false);
     const modalLoading = ref(false);
+
     const handleModalOK = () => {
       modalLoading.value = true;
       axios.post("/ebook/save", ebook.value).then((response) => {
+        modalLoading.value = false;
         const data = response.data;  // data = commonResp
         if (data.success) {
           modalVisible.value = false;
-          modalLoading.value = false;
 
           // 重新加载列表
           handleQuery({
             page: pagination.value.current,
             size: pagination.value.pageSize
           });
+        } else {
+          message.error(data.message);
         }
       });
     };

@@ -54,8 +54,7 @@
       :confirm-loading="modalLoading"
       @ok="handleModalOK"
   >
-    <a-form :model="category" :label-col="{ span: 6 }"
-:wapper-col="{ span: 18 }">
+    <a-form :model="category" :label-col="{ span: 6 }" :wapper-col="{ span: 18 }">
       <a-form-item label="名称">
         <a-input v-model:value="category.name" />
       </a-form-item>
@@ -128,7 +127,7 @@ export default defineComponent({
     const level1 = ref(); // 一级分类树, children属性就是二级分类
 
     /**
-     * 数据查询
+     * 查询所有分类
      */
     const handleQuery = () => {
       loading.value = true;

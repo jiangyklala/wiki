@@ -2,7 +2,7 @@ package com.jiawa.wiki.req;
 
 import javax.validation.constraints.NotNull;
 
-public class EbookSavaReq {
+public class EbookSaveReq {
     private Long id;
 
     @NotNull(message = "[名称] 不能为空呦")

@@ -1,7 +1,7 @@
 package com.jiawa.wiki.controller;
 
 import com.jiawa.wiki.req.EbookQueryReq;
-import com.jiawa.wiki.req.EbookSavaReq;
+import com.jiawa.wiki.req.EbookSaveReq;
 import com.jiawa.wiki.resp.CommonResp;
 import com.jiawa.wiki.resp.EbookQueryResp;
 import com.jiawa.wiki.resp.PageResp;
@@ -26,7 +26,7 @@ public class EbookController {
     }
 
     @PostMapping("/save")
-    public CommonResp save(@Valid @RequestBody EbookSavaReq req) {  // 以 json 方式提交, 需要加这个@注解, 如果以表单形式提交则不需要
+    public CommonResp save(@Valid @RequestBody EbookSaveReq req) {  // 以 json 方式提交, 需要加这个@注解, 如果以表单形式提交则不需要
         CommonResp resp = new CommonResp<>(); //返回值我们只需要其中的 success 变量
         ebookService.save(req);
         return resp;
